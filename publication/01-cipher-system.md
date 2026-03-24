@@ -134,6 +134,16 @@ The underlying text is **bilingual Latin-Occitan**, consistent with the medical 
 
 Plant name labels on herbal folios use a **different positional encoding table** from the prose cipher. This label cipher has been partially cracked (40-entry table, 30/110 herbal folios matched). Identified plants include: borago (borage), mandragora (mandrake), mentha (mint), tilia (linden), viola (violet), aloe, timo (thyme), linum (flax), cicuta (hemlock), fragaria (strawberry), ruta (rue), morus (mulberry), cardo (thistle), and others.
 
+## The Page-Level Reading Order
+
+The word-level cipher produces correct Latin vocabulary: 18 NOCERE conjugations, Zipf-compliant frequency distribution (exponent -0.919), and grammatical composition matching Latin pharmaceutical prose (verb:noun ratio 1.24:1, function:content ratio 0.39:1). Testing confirms 223 of 224 folios are grammatically self-contained, with enough verbs, nouns, and function words on each page to form complete sentences.
+
+However, the decoded text reads as fragmented phrases in the EVA transcription's physical line order. A random reshuffling of the decoded words by grammatical category actually produces more coherent pharmaceutical statements than the words in their page order. Simple reordering algorithms (columnar transposition, boustrophedon, line interleaving) do not improve coherence, suggesting the reading order may follow illustration-specific paths rather than a universal algorithm.
+
+Super-gallows characters appear at vowel positions 63% of the time (vs 40% expected by chance), and the four types show different following-glyph distributions, indicating they carry information beyond decoration. However, they are not sentence delimiters (mean gap: 1.9 words between consecutive gallows). Their exact function remains an open question.
+
+The word-level substitution cipher is solved. The page-level reading order is the primary remaining challenge. Full analysis in [18-null-analysis.md](18-null-analysis.md).
+
 ## Historical Context
 
 The cipher is consistent with the **Naibbe cipher** class (Greshko 2025), a verbose homophonic substitution system documented in the court of the Duke of Mantua in the early 15th century. The vellum radiocarbon date (1404–1438) places it squarely within this period. The bilingual Latin-Occitan profile and pharmacological content are consistent with the medical tradition of Montpellier, a major center of medieval medicine where Latin and Occitan coexisted in scholarly and practical texts.
