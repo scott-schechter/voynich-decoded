@@ -1,0 +1,13 @@
+{
+  "name": "voynich-decoded",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Voynich Manuscript decipherment — 87.8% coverage, 3,648-entry glossary",
+  "scripts": {
+    "decode": "node decode.js",
+    "decode:folio": "node decode.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

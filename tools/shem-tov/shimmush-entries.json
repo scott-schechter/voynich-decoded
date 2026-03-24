@@ -1,0 +1,7006 @@
+{
+  "metadata": {
+    "title": "Medical Synonym Lists from Medieval Provence",
+    "description": "Extracted entries from Shem Tov ben Isaac of Tortosa, Sefer ha-Shimmush Book 29, and supplementary sources",
+    "sources": [
+      {
+        "id": "shimmush_list1",
+        "title": "Sefer ha-Shimmush, Book 29, Synonym List 1 (Hebrew-Arabic-Romance/Latin)",
+        "reference": "Bos, Hussein, Mensching, Savelsberg (eds.), Brill 2011",
+        "entries": 667
+      },
+      {
+        "id": "sefer_almansur",
+        "title": "Sefer Almansur (Medical Glossaries in the Hebrew Tradition)",
+        "reference": "Bos, Mensching, Zwink (eds.), Brill 2017",
+        "entries": 49
+      },
+      {
+        "id": "bos_hajek_oxford",
+        "title": "Latin/Italo-Romance Glossary, Ms. Oxford Bodleian Opp. 688",
+        "reference": "Bos, Hajek, Kogman-Appel, Mensching, Aleph 19.2 (2019)",
+        "entries": 13
+      },
+      {
+        "id": "arabic_romance_vatican",
+        "title": "Arabic-Romance Glossaries in Hebrew MSS (Vatican Library)",
+        "reference": "Bos and Mensching, Aleph 15.1 (2015)",
+        "entries": 10
+      }
+    ],
+    "extraction_date": "2026-03-22",
+    "total_entries": 739
+  },
+  "shimmush_list1": [
+    {
+      "section": "ALEF",
+      "hebrew": "\"HLWT or \"HLYM",
+      "arabic": "#NBR",
+      "romance_latin": "\"NBR\" or \"YS̆PRM\" DYBL\"NH",
+      "botanical": "Aloexyllon Agallochum",
+      "english": "aloe wood"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"ZWB",
+      "arabic": ".S #TR",
+      "romance_latin": "MWNYG .TH",
+      "botanical": "Hyssopus officinalis L.",
+      "english": "hyssop",
+      "botanical_all": [
+        "Hyssopus officinalis L.",
+        "Origanum maru L.",
+        "Majorana syriaca L."
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"WG",
+      "arabic": "SWM\"Q",
+      "romance_latin": "S̆M\"Q",
+      "botanical": "Rhus coriaria L.",
+      "english": "sumac",
+      "botanical_all": [
+        "Rhus coriaria L.",
+        "Ferula assa"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"MYT\"",
+      "arabic": "N#N#",
+      "romance_latin": "MN .T\"",
+      "botanical": "Ammi visnaga",
+      "english": "ammi"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"S\"",
+      "arabic": "\"S",
+      "romance_latin": "NYRTH",
+      "botanical": "Myrtus communis L.",
+      "english": "myrtle",
+      "occitan": "nerta"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"YRWS",
+      "arabic": "SYSNBR",
+      "romance_latin": "BLS̆MYTH",
+      "botanical": "Iris pallida L.",
+      "english": "",
+      "botanical_all": [
+        "Iris pallida L.",
+        "Menta silvestris"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"GWZ HWDYY",
+      "arabic": "N\"RĞYL",
+      "romance_latin": "NWZ \"YNDY\"H",
+      "botanical": "Cocus nucifera L.",
+      "english": "coconut",
+      "botanical_all": [
+        "Cocus nucifera L.",
+        "Nuez indica"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"BN R#P",
+      "arabic": "H",
+      "romance_latin": "PYR\" PWG",
+      "botanical": "",
+      "english": "A piece of stick, or wood, for producing fire",
+      "occitan": "peira"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\" .S .TRWBLYN",
+      "arabic": "Q .SM QRYS̆",
+      "romance_latin": "PNY\" S̆ MYNWDS̆",
+      "botanical": "Pinus picea",
+      "english": "pine cone",
+      "occitan": "pinha"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"SPYDN\"",
+      "arabic": "\"SPYD\" Ğ",
+      "romance_latin": "BLNQY .T",
+      "botanical": "Annotated variant",
+      "english": "white lead",
+      "botanical_all": [
+        "Annotated variant",
+        "Dikdukei Soferim"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"S .TYS",
+      "arabic": "NYL",
+      "romance_latin": "\"YNDY",
+      "botanical": "Indigo tinctoria L.",
+      "english": "woad",
+      "botanical_all": [
+        "Indigo tinctoria L.",
+        "Isatis tinctoria L."
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"LH",
+      "arabic": "BTMH",
+      "romance_latin": "PYN",
+      "botanical": "Pistacia terebinthus L.",
+      "english": "terebinth",
+      "botanical_all": [
+        "Pistacia terebinthus L.",
+        "Jacob buried"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"LMWG",
+      "arabic": "MRĞ\"N or BSD",
+      "romance_latin": "QWRYL",
+      "botanical": "Meere bedeckt",
+      "english": "",
+      "botanical_all": [
+        "Meere bedeckt",
+        "Geonic commentary"
+      ],
+      "occitan": "cora"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"GWZ MQY\"",
+      "arabic": "GWZ \"LQY",
+      "romance_latin": "NWS BWMYQ\"",
+      "botanical": "Nux vomica",
+      "english": "vomic nut",
+      "botanical_all": [
+        "Nux vomica",
+        "Strychnos nux",
+        "Cocos nucifera L.",
+        "Sin loc"
+      ],
+      "occitan": "notz"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"RY H\"RS.",
+      "arabic": "M\"ZRYWN",
+      "romance_latin": "LWRYWLH",
+      "botanical": "Daphne mezereum L.",
+      "english": "",
+      "botanical_all": [
+        "Daphne mezereum L.",
+        "Daphne ole",
+        "Daphne oleaefolia L.",
+        "Daphne gnidium L.",
+        "Rhubarb pills",
+        "Cauliach Coll"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"PSYQYM\"",
+      "arabic": "SW\"K",
+      "romance_latin": "",
+      "botanical": "Assi ruled",
+      "english": "",
+      "botanical_all": [
+        "Assi ruled",
+        "One must",
+        "Abba replied",
+        "Jacob replied"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"B .TRM HBN",
+      "arabic": "M\"HYZHRH",
+      "romance_latin": "P\"YRY \"YGNS PYL or \"N .TYP .TRY",
+      "botanical": "All our",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\" .HW",
+      "arabic": "QR .T",
+      "romance_latin": "PRYN\" S̆LW\"DYGD\"",
+      "botanical": "Alexandrian trefoil",
+      "english": "sedge, marsh plant",
+      "botanical_all": [
+        "Alexandrian trefoil",
+        "Trifolium alexandrinum"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"BN HS̆W\"BT",
+      "arabic": "H",
+      "romance_latin": "QRMYT\"",
+      "botanical": "",
+      "english": "loadstone"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"SPRGWS",
+      "arabic": "HLYWN",
+      "romance_latin": "\"SP\"RGWS̆",
+      "botanical": "Asparagus officinalis",
+      "english": "asparagus",
+      "botanical_all": [
+        "Asparagus officinalis",
+        "Asparagus acutifolius",
+        "Brassica oleracea",
+        "Asparagus officinalis L.",
+        "Asparagus acutifolius L."
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"QQY\"",
+      "arabic": "\"Q\"QY\"",
+      "romance_latin": "\"Q\"SY\"",
+      "botanical": "Acacia nilotica",
+      "english": "Arabic gum",
+      "botanical_all": [
+        "Acacia nilotica",
+        "Acacia senegal"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"YLWW\"",
+      "arabic": "S. BR",
+      "romance_latin": "\"LW\"N",
+      "botanical": "Aloe vulgaris",
+      "english": "aloe",
+      "botanical_all": [
+        "Aloe vulgaris",
+        "Aloe vera L.",
+        "Medicines attributed"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"BN HYHWDY",
+      "arabic": "HGR",
+      "romance_latin": "L\"PYS̆ MGN\" TY",
+      "botanical": "Cidaris glandaria",
+      "english": "",
+      "botanical_all": [
+        "Cidaris glandaria",
+        "Cretaceous period",
+        "Asaph the"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"BS̆",
+      "arabic": "MS̆MS̆",
+      "romance_latin": "\"NPRYS̆GS̆",
+      "botanical": "Cydonia vulgaris",
+      "english": "",
+      "botanical_all": [
+        "Cydonia vulgaris",
+        "Prunus armeniaca",
+        "Lolium temulentum",
+        "Avanim tovot",
+        "Experiences attributed",
+        "Abraham ibn"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\" S̆WN",
+      "arabic": "\" .HRS̆",
+      "romance_latin": "\" S̆PRY",
+      "botanical": "",
+      "english": "hard"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"NQH",
+      "arabic": "WRL",
+      "romance_latin": "",
+      "botanical": "Hemidactilus turcicus",
+      "english": "varan",
+      "botanical_all": [
+        "Hemidactilus turcicus",
+        "Varanus niloticus"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"NYS. Y PS̆TN",
+      "arabic": "QM\" T",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"LWNYM",
+      "arabic": "S. NWBR",
+      "romance_latin": "PNY\"S",
+      "botanical": "",
+      "english": "pine or pine cone"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"YLN \"BRHM",
+      "arabic": "PNĞNKST",
+      "romance_latin": "PN .T\"PYLWN",
+      "botanical": "Vitex agnus",
+      "english": "chaste tree",
+      "botanical_all": [
+        "Vitex agnus",
+        "Potentilla reptans L.",
+        "Delphinium staphisagria L.",
+        "Potentilla reptans"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"DRT",
+      "arabic": "KS\"",
+      "romance_latin": "PLS. \"DH",
+      "botanical": "Llana pellissada",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\" S̆LG",
+      "arabic": "\" S̆N\"N",
+      "romance_latin": "",
+      "botanical": "Foremost amongst",
+      "english": "",
+      "botanical_all": [
+        "Foremost amongst",
+        "Russian thistle",
+        "Salsola kali"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\" S̆KR#",
+      "arabic": "B\"QS",
+      "romance_latin": "BRZYL",
+      "botanical": "Buxus sempervirens",
+      "english": "box",
+      "botanical_all": [
+        "Buxus sempervirens",
+        "Atonement may",
+        "Beitrag zur",
+        "Geschichte der",
+        "Medizin des",
+        "Hand zweier",
+        "Abhandlungen des",
+        "Handschriften dargestellt",
+        "Ein Beitrag"
+      ],
+      "occitan": "brazil"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"BYB",
+      "arabic": "PRYK",
+      "romance_latin": "",
+      "botanical": "Now the",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\" .S .TB\"",
+      "arabic": "DWKN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "platform"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"GN",
+      "arabic": "\"G\"NH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "urn, amphora, washing-tub"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"BWB S̆L QNH",
+      "arabic": "\"NBWB",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"DR\"",
+      "arabic": "#NZRWT",
+      "romance_latin": "\"NGLW .T or SRQH QWLH Q .SBH",
+      "botanical": "Rab needs",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"RGMN",
+      "arabic": "\"RĞW\"N, they say that this is wool dyed with L\"Q\"",
+      "romance_latin": "",
+      "botanical": "Alphita passage",
+      "english": "redness or a certain red dye",
+      "botanical_all": [
+        "Alphita passage",
+        "Lacca dicitur"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"SPST\"",
+      "arabic": "PS. PS. H",
+      "romance_latin": "MDG\"L",
+      "botanical": "Akkadian aspasta",
+      "english": "lucern",
+      "botanical_all": [
+        "Akkadian aspasta",
+        "Medicago sativa L.",
+        "Medicago sativa"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"QLBYSWT",
+      "arabic": "Q .TN",
+      "romance_latin": "",
+      "botanical": "Wort bleibt",
+      "english": "coccyx",
+      "botanical_all": [
+        "Wort bleibt",
+        "Ben Chan"
+      ]
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"LGBYS̆",
+      "arabic": "\"LTLĞ and \"LN\"D",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "hail"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"SPLNYT",
+      "arabic": "LS. WQ and this is anything which adheres to the limb it",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"BN S̆MYR",
+      "arabic": ".HGR \"LM\"S",
+      "romance_latin": "\"DYM\"N",
+      "botanical": "",
+      "english": "diamond"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\" S̆KWL HKWPR",
+      "arabic": "‘NQWD \"LHN’",
+      "romance_latin": "",
+      "botanical": "Lawsonia alba L.",
+      "english": "bunch or cluster"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"GWZ HWDYY",
+      "arabic": "NRGYL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"PWNYN HS̆WPYN",
+      "arabic": "\"L .HM .S \"L\"MLS",
+      "romance_latin": "",
+      "botanical": "Cicer arietinum L.",
+      "english": "smooth chick-peas"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"PWNYN GMLWNYN",
+      "arabic": "\"L .HM .S \"LKBYR",
+      "romance_latin": "",
+      "botanical": "Shemittah year",
+      "english": "large-sized chick-peas"
+    },
+    {
+      "section": "ALEF",
+      "hebrew": "\"GSYM, o.l. PRWNS̆",
+      "arabic": "\"YĞ\" S. which is #YN BQR",
+      "romance_latin": "",
+      "botanical": "Pirus communis L.",
+      "english": "plum",
+      "botanical_all": [
+        "Pirus communis L.",
+        "Prunus domestica L.",
+        "Spain call"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BS̆M",
+      "arabic": "QRNPL",
+      "romance_latin": "ĞRWPLY",
+      "botanical": "Balsamodendrium opobalsamum",
+      "english": "clove",
+      "botanical_all": [
+        "Balsamodendrium opobalsamum",
+        "Eugenia caryophyllata Thunb.",
+        "Caryophyllus aromaticus L.",
+        "Cortex cinnamoni"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "B .SL S̆DH",
+      "arabic": "\" S̆QYL or #N .SL or B .SL \"LP\"R",
+      "romance_latin": "\" S̆KYLH or SYBH",
+      "botanical": "Scilla maritima L.",
+      "english": "squill",
+      "botanical_all": [
+        "Scilla maritima L.",
+        "Urginea maritima"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BS. L KWPRY",
+      "arabic": "BS. L HRYP",
+      "romance_latin": "SYBH QWDYNT.",
+      "botanical": "",
+      "english": "a strong onion, burning and biting to the . tongue",
+      "occitan": "present"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BWRYT",
+      "arabic": "BWRQ or NTRWN",
+      "romance_latin": "S̆LNYTRY",
+      "botanical": "Mesembrianthemum cristallinum",
+      "english": "borax",
+      "botanical_all": [
+        "Mesembrianthemum cristallinum",
+        "Galen was"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BNWT S̆QMH",
+      "arabic": "ĞMYZ",
+      "romance_latin": "",
+      "botanical": "Pistacia vera L.",
+      "english": "pistachio",
+      "botanical_all": [
+        "Pistacia vera L.",
+        "Ficus Sycomorus"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BY .SH .TR\"MY .T\"",
+      "arabic": "NYMBRS̆T",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "BET",
+      "hebrew": "BHRMG",
+      "arabic": "S̆Y .H",
+      "romance_latin": "SN .TWNY\"",
+      "botanical": "Bactrian willow",
+      "english": "",
+      "botanical_all": [
+        "Bactrian willow",
+        "Artemisia species",
+        "Artemisia maritima",
+        "Artemisia absinthium",
+        "Gascon variant",
+        "Santolina belong",
+        "Artemisia abrotanum",
+        "Alphita tradition",
+        "Handbuch der"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BR\" DTWM\"",
+      "arabic": "SN TWM",
+      "romance_latin": "DRN\" D\"YL",
+      "botanical": "Allium sativum L.",
+      "english": "clove of garlic",
+      "botanical_all": [
+        "Allium sativum L.",
+        "Geonic sources"
+      ],
+      "occitan": "alh"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BRY DTUMY",
+      "arabic": "\"SN\"N TWM",
+      "romance_latin": "DRNS̆ D\"LYS̆",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "BET",
+      "hebrew": "BYS. Y KYNYM",
+      "arabic": "S. YB\"N",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "nits"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BRDLS",
+      "arabic": "PHD",
+      "romance_latin": "LWPR .T",
+      "botanical": "Acinonyx jubatus",
+      "english": "cheetah",
+      "occitan": "laupart"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BYB",
+      "arabic": "BLW#H or MZ\"B",
+      "romance_latin": "\"YGYR",
+      "botanical": "",
+      "english": "conduit, pipe, gutter or canal",
+      "occitan": "aiguier"
+    },
+    {
+      "section": "BET",
+      "hebrew": "B#LT HS. D",
+      "arabic": "D\"T \"LĞNB",
+      "romance_latin": "PLBS̆YN NWN WYYR\"",
+      "botanical": "Pleuritis costalis",
+      "english": "pleurisy",
+      "botanical_all": [
+        "Pleuritis costalis",
+        "With the"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BWLMWS",
+      "arabic": "‘S̆\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "syncope, fainting"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BW#H",
+      "arabic": "DBYLH",
+      "romance_latin": "PWS̆TYM\"",
+      "botanical": "",
+      "english": "swelling or abcess"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BWRM\" DGLL\"",
+      "arabic": "BR\"M MN .HĞR",
+      "romance_latin": "",
+      "botanical": "Halakhic literature",
+      "english": "stone pot",
+      "botanical_all": [
+        "Halakhic literature",
+        "Zedekiah ben"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BLH",
+      "arabic": "BLH",
+      "romance_latin": "",
+      "botanical": "Zedekiah ben",
+      "english": "to be used up, to be worn out",
+      "botanical_all": [
+        "Zedekiah ben",
+        "Sefer Shibbolei"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BY .SH",
+      "arabic": ".HM\"H",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "waterlogged ground"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BYT HMWQD",
+      "arabic": "MTBKH",
+      "romance_latin": "PWG\"NYH",
+      "botanical": "",
+      "english": "a fireplace",
+      "occitan": "foganha/fuganha"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BYYTWT",
+      "arabic": "\"HLYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "BET",
+      "hebrew": "BYBRYM",
+      "arabic": "BRĞ \"L .HM\"M",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "BET",
+      "hebrew": "BRWS̆",
+      "arabic": "BQS",
+      "romance_latin": "BWYYS̆",
+      "botanical": "Juniperus drupacea",
+      "english": "Juniper",
+      "botanical_all": [
+        "Juniperus drupacea",
+        "Buxus sempervirens L.",
+        "Juniperus Excelsa"
+      ]
+    },
+    {
+      "section": "BET",
+      "hebrew": "BYT H .SW\"R",
+      "arabic": ".TWQ \"LTWB",
+      "romance_latin": "QB .S\"NH",
+      "botanical": "",
+      "english": "neck opening or jugulum"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BLWYY",
+      "arabic": "HLQ\"N",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "rags of old clothes"
+    },
+    {
+      "section": "BET",
+      "hebrew": "BWKN\"",
+      "arabic": "PHR",
+      "romance_latin": "PYS̆ .TWN",
+      "botanical": "",
+      "english": "pestle, rib",
+      "occitan": "was"
+    },
+    {
+      "section": "BET",
+      "hebrew": "S̆L \"RS.",
+      "arabic": "BLWT. \"L\"RD",
+      "romance_latin": "",
+      "botanical": "Teucrium chamaedrys",
+      "english": "oak of the earth",
+      "botanical_all": [
+        "Teucrium chamaedrys",
+        "Stachys officinalis L.",
+        "Teucrium chamaedrys L.",
+        "Teucrium lucidum L.",
+        "Veronica Chamaedrys"
+      ],
+      "occitan": "medical"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GYHWQ, i.e belching",
+      "arabic": "TM .TY",
+      "romance_latin": "\" S̆ .TRYLY\"R",
+      "botanical": "Geonic explanation",
+      "english": "belching",
+      "occitan": "esteril"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRYSYN",
+      "arabic": "PYS\"R or another kind of cereal",
+      "romance_latin": "",
+      "botanical": "Vicia faba L.",
+      "english": "split, broken",
+      "botanical_all": [
+        "Vicia faba L.",
+        "Vicia Faba"
+      ]
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GWPNN",
+      "arabic": "SBST\"N",
+      "romance_latin": "S̆BS̆T\"N",
+      "botanical": "Foeniculum vulgare Mill.",
+      "english": "sebesten",
+      "botanical_all": [
+        "Foeniculum vulgare Mill.",
+        "Cordia Myxa"
+      ]
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GR#YNY \"YLN \"BRHM",
+      "arabic": ".HB \"LPNĞNKST",
+      "romance_latin": "GR\"NH D\"NWS̆",
+      "botanical": "Vitex agnus",
+      "english": ""
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRGRY \"S .TYS",
+      "arabic": ".HB \"LNYL",
+      "romance_latin": "GR\"NH DY\"YNDY",
+      "botanical": "Schalen und",
+      "english": "kernels or stones",
+      "occitan": "indi"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "G#S̆",
+      "arabic": "ĞS̆\"",
+      "romance_latin": "RW .T",
+      "botanical": "",
+      "english": "to belch or to eructate"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GHH",
+      "arabic": "SHNH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "face or look"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GYBSS",
+      "arabic": "ĞBS",
+      "romance_latin": "ĞYP",
+      "botanical": "",
+      "english": "plastering material, gypsum",
+      "occitan": "gip"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GY .HR",
+      "arabic": "\" .HMR",
+      "romance_latin": "BRWN",
+      "botanical": "",
+      "english": "red-spotted in the face",
+      "occitan": "brun"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRGWRYM",
+      "arabic": "GR\"GYR",
+      "romance_latin": "GWRGRYS̆MW",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GWDLWT",
+      "arabic": "S. P\"YH",
+      "romance_latin": "LNDS̆ D\"WR",
+      "botanical": "",
+      "english": "plates of gold",
+      "occitan": "landa"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GLGL",
+      "arabic": "LWLB",
+      "romance_latin": ".TWRN",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRYDWT HM#YM WH#YS. WR",
+      "arabic": "SHWG",
+      "romance_latin": "PWNTS",
+      "botanical": "",
+      "english": "intestinal abrasion and constipation"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GDMWT",
+      "arabic": "ĞD\"M",
+      "romance_latin": "MDYL",
+      "botanical": "",
+      "english": "leprosy",
+      "occitan": "mesel/mezel"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRGTNY",
+      "arabic": "N\" .SWR",
+      "romance_latin": "PYS̆ .TWL\"",
+      "botanical": "",
+      "english": "fistula",
+      "occitan": "fistola/festola/festula"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": ". S̆WT",
+      "arabic": "ĞMR HY",
+      "romance_latin": "BRS̆\" WYW\"",
+      "botanical": "",
+      "english": "burning, living or flickering coals",
+      "occitan": "see"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GWRY HKLBYM",
+      "arabic": "\"GR\" \"LKL\"B",
+      "romance_latin": "QDYLS̆",
+      "botanical": "Even jackals",
+      "english": "whelps of dogs"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRDN",
+      "arabic": "\"QR#",
+      "romance_latin": "RS̆QS",
+      "botanical": "",
+      "english": "scabby or someone afflicted with scabs",
+      "occitan": "rascas"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRGRY \"LWNYM",
+      "arabic": "HB",
+      "romance_latin": "PNYWLS̆",
+      "botanical": "",
+      "english": "kernel of the pine cone",
+      "occitan": "pinhol"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GRH",
+      "arabic": "TRQWH",
+      "romance_latin": "\"WRQ\"",
+      "botanical": "",
+      "english": "",
+      "occitan": "only"
+    },
+    {
+      "section": "GIMEL",
+      "hebrew": "GMLWNYN S̆WPYN",
+      "arabic": "KBYR \"MLS",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "baldness (of the forehead)"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DR .SYN",
+      "arabic": "D\"R .SYNY",
+      "romance_latin": "SNMWMW",
+      "botanical": "Chinese cinnamon",
+      "english": "cinnamon",
+      "botanical_all": [
+        "Chinese cinnamon",
+        "Cinnamomum ceylanicum",
+        "Pyrenees would"
+      ]
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DM HTNYN",
+      "arabic": "DM \"L\"KWYN",
+      "romance_latin": "S̆NGY DYDRGWN",
+      "botanical": "Dracaena Draco",
+      "english": ""
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DWD\"YM",
+      "arabic": "YBRWH",
+      "romance_latin": "MDR\"GWLH",
+      "botanical": "Atropa mandragora",
+      "english": "",
+      "botanical_all": [
+        "Atropa mandragora",
+        "Mandragora officinarum L."
+      ],
+      "occitan": "mandragolha"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DLW#YM",
+      "arabic": "QR#",
+      "romance_latin": "QWGWRL\"",
+      "botanical": "Cucurbita pepo L.",
+      "english": "pumpkin",
+      "botanical_all": [
+        "Cucurbita pepo L.",
+        "Lagenaria vulgaris",
+        "Cucurbita maxima"
+      ],
+      "occitan": "cogorla"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DL#T YWNYT WM .SRYT",
+      "arabic": "DL\"#",
+      "romance_latin": "MLWN S̆R\"SNYQY",
+      "botanical": "Citrullus vulgaris Schrad.",
+      "english": "the Greek and Egyptian pumpkin",
+      "occitan": "melon"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DNDNH",
+      "arabic": "N#N#",
+      "romance_latin": "MN .T\"",
+      "botanical": "Ceterach officinarum Willd.",
+      "english": "mint",
+      "botanical_all": [
+        "Ceterach officinarum Willd.",
+        "Mentha piperita",
+        "Mentha sativa L.",
+        "Mentha aquatica L."
+      ]
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DBDBNYWT",
+      "arabic": "QR\"SY\" e.g. HB",
+      "romance_latin": "SYRRS̆",
+      "botanical": "Ages the",
+      "english": "lumps of dripping grapes",
+      "botanical_all": [
+        "Ages the",
+        "Prunus cerasus",
+        "Prunus avium L.",
+        "Prunus mahaleb L.",
+        "Maghrib for",
+        "Cordia myxa L."
+      ],
+      "occitan": "cireira"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DYS\"",
+      "arabic": "HRYSH",
+      "romance_latin": "\"NWN\" QWYYT\"",
+      "botanical": "",
+      "english": "grain or wheat, bruised, brayed or pounded"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DS̆N HS. MR",
+      "arabic": "ZWP\" \"LS. WP",
+      "romance_latin": "\"YS̆NWSRWNTWM",
+      "botanical": "Hyssopus officinalis L.",
+      "english": ""
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DRDNY",
+      "arabic": "LT\"T",
+      "romance_latin": "ĞYNĞYBS̆",
+      "botanical": "",
+      "english": "gums",
+      "occitan": "gengiva"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DPWS",
+      "arabic": "Q\"LB",
+      "romance_latin": "PWRM\"",
+      "botanical": "",
+      "english": "frame, mould",
+      "occitan": "it"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DBYWNYM",
+      "arabic": "DRQ \"L .HM\"M",
+      "romance_latin": "PM .T\" DYQWLWMS̆",
+      "botanical": "",
+      "english": "excrement",
+      "occitan": "femta"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DYKH GRYSWT",
+      "arabic": "DQ\" ĞRYS̆\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "to pound pearl barley or grits"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DWT",
+      "arabic": "S. HRYĞ",
+      "romance_latin": "BRQYL",
+      "botanical": "",
+      "english": "a subterranean masoned store-room, cistern, cellar",
+      "occitan": "broc"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DWKYPT",
+      "arabic": "HDHWD",
+      "romance_latin": "",
+      "botanical": "Upupa epops",
+      "english": ""
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DRDY\"",
+      "arabic": "DWRDY",
+      "romance_latin": "PYG\"L",
+      "botanical": "Untersuchung zur",
+      "english": "sediment, lees, dregs",
+      "botanical_all": [
+        "Untersuchung zur",
+        "Bedeutung des"
+      ],
+      "occitan": "words"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DQL",
+      "arabic": "NKL i.e. the palm tree",
+      "romance_latin": "DYYTLYR",
+      "botanical": "Phoenix dactylifera L.",
+      "english": "palm tree",
+      "occitan": "name"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "DLDWL",
+      "arabic": "DBWL",
+      "romance_latin": "RPYSY",
+      "botanical": "",
+      "english": "to reduce, weaken"
+    },
+    {
+      "section": "DALET",
+      "hebrew": "D\"H",
+      "arabic": "HD\"",
+      "romance_latin": "",
+      "botanical": "Milvus milvus",
+      "english": ""
+    },
+    {
+      "section": "HE",
+      "hebrew": "HRNY",
+      "arabic": "KBYZ",
+      "romance_latin": "MLB\"",
+      "botanical": "Geonic tradition",
+      "english": "malva or mallow",
+      "botanical_all": [
+        "Geonic tradition",
+        "Malva rotundifolia",
+        "Malva parviflora",
+        "Althaea officinalis"
+      ]
+    },
+    {
+      "section": "HE",
+      "hebrew": "HRZP\"",
+      "arabic": "#\"QR QR .H\"",
+      "romance_latin": "PLY .TRY",
+      "botanical": "Hypericum perforatum L.",
+      "english": "a bitter herb"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HRDWPNY",
+      "arabic": "DPL\"",
+      "romance_latin": "LWRDMWNY",
+      "botanical": "Nerium Oleander",
+      "english": "oleander"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HYTYH",
+      "arabic": "\"NĞD\"N",
+      "romance_latin": "PWLYD\" ĞH P\" TYDH",
+      "botanical": "Ferula asa",
+      "english": "leaf",
+      "occitan": "fuelha"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HBNYM",
+      "arabic": "\"BNWS",
+      "romance_latin": "YYWNWS",
+      "botanical": "Diospyros mespiliformis",
+      "english": "ebony"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HLYLQYM KRKWMYYM",
+      "arabic": "HLYLĞ \" S. PR",
+      "romance_latin": "MYR\" BWL\"NY",
+      "botanical": "Geonic compendium",
+      "english": "yellow myrobalan",
+      "botanical_all": [
+        "Geonic compendium",
+        "Medicines attributed",
+        "Terminalia citrina Roxb.",
+        "Hara nut",
+        "Gedoloth nach",
+        "Text der",
+        "Halachoth Gedoloth"
+      ]
+    },
+    {
+      "section": "HE",
+      "hebrew": "HLYLQYM KBWLYYM",
+      "arabic": "HLYLĞ K\"BWLY",
+      "romance_latin": "MYR\" BWL\"NY",
+      "botanical": "Chebulic myrobalan",
+      "english": "Chebulic myrobalan",
+      "botanical_all": [
+        "Chebulic myrobalan",
+        "Chebulic myrobalans"
+      ]
+    },
+    {
+      "section": "HE",
+      "hebrew": "HLYLQYM HWDYYM",
+      "arabic": "HLYLĞ HNDY",
+      "romance_latin": "MYR\" BWL\"NY",
+      "botanical": "Terminalia horrida",
+      "english": "Indian Myrobalans",
+      "botanical_all": [
+        "Terminalia horrida",
+        "Mirabolans indis",
+        "Chebulic myrobalans"
+      ]
+    },
+    {
+      "section": "HE",
+      "hebrew": "HZLH",
+      "arabic": "NZLH",
+      "romance_latin": "R\"BM\"S",
+      "botanical": "Vatican variant",
+      "english": "dripping, pouring out or shedding",
+      "occitan": "raum"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HDRQWN",
+      "arabic": "QWLNĞ",
+      "romance_latin": "QWLWN",
+      "botanical": "",
+      "english": "dropsy",
+      "occitan": "FEW"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HM#DT HM#YM",
+      "arabic": "ZLQ \"L\"M#\"",
+      "romance_latin": "",
+      "botanical": "Dysenteria spuria",
+      "english": ""
+    },
+    {
+      "section": "HE",
+      "hebrew": "H .TPT HS̆TN",
+      "arabic": "TQ .TYR \"LBWL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "HE",
+      "hebrew": "HDR KNTH",
+      "arabic": "DW\"RH",
+      "romance_latin": "BWDYLS̆",
+      "botanical": "Pars ventris",
+      "english": "Mesenteron, the old term for embryonic mid gut"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HPWK H\" .S .TWMK\"",
+      "arabic": "THW# \"LM#DH \"W TQLBH\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "upsetting the stomach"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HST",
+      "arabic": "K\"BWS",
+      "romance_latin": "MS̆Q\"",
+      "botanical": "One wonders",
+      "english": "fright, panic, nightmare"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HZYH",
+      "arabic": "HDY\"N",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "absurdity, folly, error"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HTBWSSWT",
+      "arabic": "K .D\"B, and it is derived from “wallowing in your",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "to be trodden down, to be trampled"
+    },
+    {
+      "section": "HE",
+      "hebrew": ". HMQWM",
+      "arabic": "TNTYL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "applying a fomentation to a place [of the body]"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HZ\"H",
+      "arabic": "NDW",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "to sprinkle"
+    },
+    {
+      "section": "HE",
+      "hebrew": "HDRQWN",
+      "arabic": "QWLNĞ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "HE",
+      "hebrew": "HTLBDWT",
+      "arabic": "TLBD",
+      "romance_latin": "",
+      "botanical": "Moshe ben",
+      "english": "to be connected, stuck"
+    },
+    {
+      "section": "WAW",
+      "hebrew": "WTYQH",
+      "arabic": "#SYDH",
+      "romance_latin": "",
+      "botanical": "Geonic literature",
+      "english": "",
+      "botanical_all": [
+        "Geonic literature",
+        "Paeonia corallina",
+        "Paeonia foemina"
+      ]
+    },
+    {
+      "section": "WAW",
+      "hebrew": "WRYDY HS. W\"R",
+      "arabic": "\"WD\" Ğ",
+      "romance_latin": "\"WRGWN\"LS̆",
+      "botanical": "",
+      "english": "the large blood vessels, jugular veins"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZR# GD",
+      "arabic": "BZR \"LKZBWR",
+      "romance_latin": "GR\"NH DYQWRY\"NDRWM",
+      "botanical": "Coriandrum sativum L.",
+      "english": "seed of coriander",
+      "occitan": "grana"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZQN HTYS̆",
+      "arabic": "L .HYH \"LTYS",
+      "romance_latin": "RWS̆\" QNYN\"",
+      "botanical": "Judah ben",
+      "english": "",
+      "botanical_all": [
+        "Judah ben",
+        "Tragopogon porrifolius L.",
+        "Tragopogon pratensis L.",
+        "Cytinus hypocistis L.",
+        "Cistus villosus L.",
+        "Equisetum arvense L.",
+        "Plantago maior L.",
+        "Rosa canina L."
+      ]
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZR# WRDYM",
+      "arabic": "BZR \"LWRD",
+      "romance_latin": "\"NTR\"",
+      "botanical": "Arzneimittel aus",
+      "english": "rose",
+      "botanical_all": [
+        "Arzneimittel aus",
+        "Chirurgia magna",
+        "Anthera est"
+      ]
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZNB HSWS",
+      "arabic": "DNB \"LKYL",
+      "romance_latin": "QWNS̆WLYDH or DN .T QBLYN\" or",
+      "botanical": "Equisetum silvaticum",
+      "english": "horse-tail",
+      "botanical_all": [
+        "Equisetum silvaticum",
+        "Equisetum maximum",
+        "Medicines attributed",
+        "Symphytum officinale"
+      ],
+      "occitan": "consolida"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZYKWM",
+      "arabic": "ZK\"M",
+      "romance_latin": "RWBMS",
+      "botanical": "",
+      "english": "a coryza, or catarrhus ad nares; a rheum"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZW#H",
+      "arabic": "RĞP",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "trembling, fear, tempest"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZRZYRYM",
+      "arabic": "ZR\"ZYR",
+      "romance_latin": "",
+      "botanical": "Sturnus vulgaris",
+      "english": "",
+      "botanical_all": [
+        "Sturnus vulgaris",
+        "Angle externe"
+      ]
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZR# S̆WMR PRDSY",
+      "arabic": "BZR R\"ZY\"NĞ #RYD",
+      "romance_latin": "PNYQWLY",
+      "botanical": "Foeniculum vulgare",
+      "english": "fennel",
+      "botanical_all": [
+        "Foeniculum vulgare",
+        "Foeniculum vulgare L."
+      ],
+      "occitan": "text"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZR# PYGN S̆DH",
+      "arabic": "T\"PSY\"",
+      "romance_latin": "T\"P",
+      "botanical": "Ruta graveolens L.",
+      "english": "the seeds of wild rue",
+      "botanical_all": [
+        "Ruta graveolens L.",
+        "Peganum harmala L.",
+        "Haplophyllum buxbaumii"
+      ]
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "Syriac .tāpsiyā (= Gr. !αψ\u0016α",
+      "arabic": "tāfsiyā) in Bar Bahlul (BB ) (cf.",
+      "romance_latin": "",
+      "botanical": "Thapsia garganica L.",
+      "english": "pubic hair",
+      "botanical_all": [
+        "Thapsia garganica L.",
+        "Pren razis",
+        "Cauliach Coll"
+      ]
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZRDYN",
+      "arabic": "ZRĞWN",
+      "romance_latin": "WYR .S",
+      "botanical": "Crataegus monogyna Willd.",
+      "english": "grape-vine",
+      "botanical_all": [
+        "Crataegus monogyna Willd.",
+        "Crataegus azarolus",
+        "Vitis vinifera L."
+      ]
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZWWD",
+      "arabic": "MZWD it is like a bag made of skin",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "the skin of grapes"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZHB \"WPYR",
+      "arabic": "TBR",
+      "romance_latin": "PLYWLH",
+      "botanical": "",
+      "english": "gold of Ophir"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZBWR\"",
+      "arabic": "ZNBWR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "hornet"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "ZR#WNYM",
+      "arabic": ".HBWB",
+      "romance_latin": "LYWMNS̆",
+      "botanical": "",
+      "english": "rows of plants in one bed, seeds; vegetables"
+    },
+    {
+      "section": "ZAYIN",
+      "hebrew": "Z\"B",
+      "arabic": "DWB",
+      "romance_latin": "LWP",
+      "botanical": "Labrax lupus",
+      "english": "wolf",
+      "botanical_all": [
+        "Labrax lupus",
+        "Labrax punctatus"
+      ],
+      "occitan": "lup"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HRY#",
+      "arabic": "# .SPWR",
+      "romance_latin": "S̆PR\"N \"WR .TWL\"N",
+      "botanical": "Carthamus tinctorius L.",
+      "english": "gardener"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HPWS̆YT",
+      "arabic": "KNPS",
+      "romance_latin": "\" S̆QRB .T",
+      "botanical": "Vatican manuscripts",
+      "english": "scarabee, beetle"
+    },
+    {
+      "section": "HET",
+      "hebrew": ". #WLM",
+      "arabic": "HY",
+      "romance_latin": "BYB\" QWRBYN\"",
+      "botanical": "Sempervivum tectorum L.",
+      "english": "vine with a kind of dark grape",
+      "botanical_all": [
+        "Sempervivum tectorum L.",
+        "Medicines attributed",
+        "Sempervivum arboreum L."
+      ]
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HR .HBYN\"",
+      "arabic": ".HNDQWQH",
+      "romance_latin": ".TRYPWLWN",
+      "botanical": "Medicago sativa L.",
+      "english": "",
+      "botanical_all": [
+        "Medicago sativa L.",
+        "Melilotus officinalis L.",
+        "Trigonella coerulea L."
+      ]
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HRBQ",
+      "arabic": "KRBQ",
+      "romance_latin": "\"LYBRWM",
+      "botanical": "Helleborus albus",
+      "english": "",
+      "botanical_all": [
+        "Helleborus albus",
+        "Veratrum album L.",
+        "Helleborus niger L."
+      ]
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLBNH NGRT",
+      "arabic": "MY#H S\"YLH",
+      "romance_latin": "\" S̆TWRQ LYQY .TH",
+      "botanical": "Ferula galbaniflua",
+      "english": "galbanum",
+      "botanical_all": [
+        "Ferula galbaniflua",
+        "Liquidamber orientalis Mill."
+      ]
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLBNH YBS̆H",
+      "arabic": "MY#H Y\"BSH",
+      "romance_latin": ".TMY\"MH and there is another",
+      "botanical": "Styrax officinalis L.",
+      "english": "dry galbanum"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HRYWT S̆L DQL",
+      "arabic": "S#P \"LNKL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "dried branches or twigs of the palm . tree"
+    },
+    {
+      "section": "HET",
+      "hebrew": "S̆YM",
+      "arabic": "SPRĞL",
+      "romance_latin": "QWDWNS̆",
+      "botanical": "Cydonia oblonga",
+      "english": "quince",
+      "botanical_all": [
+        "Cydonia oblonga",
+        "Cydonia vulgaris"
+      ],
+      "occitan": "codon"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLB S̆#WR",
+      "arabic": "NS̆\" \"LS̆#YR",
+      "romance_latin": "\"MYDWM, made of barley-flour",
+      "botanical": "",
+      "english": "starch of barley"
+    },
+    {
+      "section": "HET",
+      "hebrew": ". S. NYM, that is the inner stones of grapes",
+      "arabic": "#ĞM \"L#NB",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fruit stones",
+      "occitan": "word"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLGLWNWT",
+      "arabic": "BQLH \"L .HMQ\"",
+      "romance_latin": "BYRDWL\"Q\"",
+      "botanical": "Portulaca oleracea L.",
+      "english": "purslane",
+      "occitan": "bortolaiga"
+    },
+    {
+      "section": "HET",
+      "hebrew": ". S. B",
+      "arabic": "NĞYL or TYL",
+      "romance_latin": "GRM",
+      "botanical": "Cynodon dactylon",
+      "english": "Bermuda Grass",
+      "botanical_all": [
+        "Cynodon dactylon",
+        "Uriginea maritima",
+        "Agropyrum repens",
+        "Geonic commentary",
+        "Triticum repens",
+        "One should",
+        "Shimmush had"
+      ],
+      "occitan": "gram"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HPYPH",
+      "arabic": "SK",
+      "romance_latin": "PRY .TR",
+      "botanical": "",
+      "english": "cleansing the head"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HWG",
+      "arabic": "DW\"R",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "circle"
+    },
+    {
+      "section": "HET",
+      "hebrew": "PQW#WT",
+      "arabic": "S̆HM",
+      "romance_latin": "",
+      "botanical": "Citrullus colocynthis",
+      "english": "fatty substance of bitter apple"
+    },
+    {
+      "section": "HET",
+      "hebrew": "D\"R#\"",
+      "arabic": "S̆HMH",
+      "romance_latin": "",
+      "botanical": "Lumbricus terrestris L.",
+      "english": "grease of the earth",
+      "botanical_all": [
+        "Lumbricus terrestris L.",
+        "Maghrebis apply"
+      ]
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLB HQWR .TMYN",
+      "arabic": "NS̆\" \"LQR .TM",
+      "romance_latin": "\"MYDWM",
+      "botanical": "Carthamus tinctorius L.",
+      "english": "safflower starch"
+    },
+    {
+      "section": "HET",
+      "hebrew": "S̆YWT",
+      "arabic": "MS̆THH",
+      "romance_latin": "NS̆PWLS̆",
+      "botanical": "Mespilus germanica L.",
+      "english": "medlar",
+      "botanical_all": [
+        "Mespilus germanica L.",
+        "Mespilus Azarolus",
+        "Sippurei Ben"
+      ],
+      "occitan": "nespola"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HB .SLT",
+      "arabic": "NRĞS",
+      "romance_latin": "NRQYS",
+      "botanical": "Geonic period",
+      "english": "",
+      "botanical_all": [
+        "Geonic period",
+        "Narcissus poeticus L.",
+        "Narcissus tazetta L.",
+        "Narcissus pseudonarcissus L."
+      ]
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLYPWT TRDYN",
+      "arabic": "RWS \"LSLQ or \"L\" .DL\"#",
+      "romance_latin": ".TYS̆ .TS̆ DYBLYDS̆ or",
+      "botanical": "Beta vulgaris",
+      "english": "shoots of beet",
+      "botanical_all": [
+        "Beta vulgaris",
+        "Geonic commentary"
+      ],
+      "occitan": "testas"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLB .H .TH",
+      "arabic": "NS̆\"",
+      "romance_latin": "\"MYDWM or \"YNPYS̆",
+      "botanical": "",
+      "english": "wheat starch; wheat fat"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HZRT GLYM",
+      "arabic": "KS BRY",
+      "romance_latin": "LY .TWG\" P\"R\"",
+      "botanical": "Lactuca saligna L.",
+      "english": "hill or wild lettuce",
+      "botanical_all": [
+        "Lactuca saligna L.",
+        "Lactuca scariola L.",
+        "Sonchus oleraceus"
+      ]
+    },
+    {
+      "section": "HET",
+      "hebrew": ". S̆MLY",
+      "arabic": "\"ZRQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "glittering substance, amber"
+    },
+    {
+      "section": "HET",
+      "hebrew": ". S. YM",
+      "arabic": "R\"SN",
+      "romance_latin": "\"LN\" QNPNYH",
+      "botanical": "Orchis anatolicus",
+      "english": "ornithogalum",
+      "botanical_all": [
+        "Orchis anatolicus",
+        "Euphorbia apios L.",
+        "France could",
+        "Inula Helenium"
+      ],
+      "occitan": "enulla"
+    },
+    {
+      "section": "HET",
+      "hebrew": "HYM",
+      "arabic": "ZBD \"LBHR",
+      "romance_latin": "\" S̆QWMH MRYN\"",
+      "botanical": "Hillel ben",
+      "english": "foam"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HWLDH",
+      "arabic": "KLD",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "mole or weasel"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HRSYT HDLM .TYQWN",
+      "arabic": "ĞBS \"LPR\"YN",
+      "romance_latin": "ĞYP DYPLYSRS̆",
+      "botanical": "",
+      "english": "potter’s clay, clay ground"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HWM .SH",
+      "arabic": ".HM\" .D",
+      "romance_latin": "LP\"SYWM",
+      "botanical": "",
+      "english": "sorrel"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HWTM HMLK",
+      "arabic": "K\"TM \"LMLK",
+      "romance_latin": "",
+      "botanical": "Certain medicines",
+      "english": "seal of the king"
+    },
+    {
+      "section": "HET",
+      "hebrew": "TRDYN",
+      "arabic": "\" DL\"#",
+      "romance_latin": "QWS̆T. S̆ DYBLYDS̆",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "HET",
+      "hebrew": ". S. YR",
+      "arabic": "KR\"T, Rabbin. KRYS̆YN",
+      "romance_latin": "PWRWS̆",
+      "botanical": "Allium porrum L.",
+      "english": "leek"
+    },
+    {
+      "section": "HET",
+      "hebrew": "H\"PR",
+      "arabic": "RMD",
+      "romance_latin": "QS. YD\"",
+      "botanical": "",
+      "english": "ophthalmia",
+      "occitan": "cassida"
+    },
+    {
+      "section": "HET",
+      "hebrew": ". S. YYM",
+      "arabic": "S̆R\"SYP",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "loins"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".H .HYM",
+      "arabic": ".SN\"NYR",
+      "romance_latin": "MWS̆QLRS̆",
+      "botanical": "Languedocian variety",
+      "english": "hook, thorn, awl, fastening, clasp, chain; fibula",
+      "occitan": "mosclar"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HLWDT HBRZL",
+      "arabic": ".SD\" \"L .HDYD",
+      "romance_latin": "RWBYL DYPYRY",
+      "botanical": "",
+      "english": "iron rust",
+      "occitan": "rovilh"
+    },
+    {
+      "section": "HET",
+      "hebrew": "DBS̆",
+      "arabic": "S̆HD",
+      "romance_latin": "BRYS̆QS̆",
+      "botanical": "Roman period",
+      "english": "honey combs"
+    },
+    {
+      "section": "HET",
+      "hebrew": ".HWM .T",
+      "arabic": ".HLZWN",
+      "romance_latin": "",
+      "botanical": "David Kim",
+      "english": "lizard, chameleon"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TY .T .HTWM",
+      "arabic": ".TYN MKTWM",
+      "romance_latin": "BWL S̆ĞYL\" .TWM",
+      "botanical": "Lemnian earth",
+      "english": "Terra˘sigillata or Lemnian earth",
+      "botanical_all": [
+        "Lemnian earth",
+        "Terra sigillata",
+        "Lemnos under",
+        "Buch der",
+        "Gifte des",
+        "Natural History"
+      ]
+    },
+    {
+      "section": "TET",
+      "hebrew": ". T. \"RMY",
+      "arabic": "TYN",
+      "romance_latin": "",
+      "botanical": "Armenian bole",
+      "english": "Armenian bole or earth",
+      "occitan": "term"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TRKSYD",
+      "arabic": "NWRH",
+      "romance_latin": "PLDWR",
+      "botanical": "",
+      "english": "binding cement"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TRYQH",
+      "arabic": "LDG",
+      "romance_latin": "PWNS̆WR\"",
+      "botanical": "",
+      "english": "sting, . . bite"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TRYT",
+      "arabic": ".TWN",
+      "romance_latin": ".TWNYN\"",
+      "botanical": "Papers submitted",
+      "english": "tuna",
+      "botanical_all": [
+        "Papers submitted",
+        "Arabi del"
+      ],
+      "occitan": "tonina"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TRYYM",
+      "arabic": ".TRYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fresh"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TYWL",
+      "arabic": "RY\" .DH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "walking, going errands"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TBLH",
+      "arabic": ".SPY .HH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a wide or broad stone, plank, board, plate"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".T .HYNH",
+      "arabic": "\"STMR\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "grinding"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".TRMY .T\"",
+      "arabic": "NYMBRS̆T",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "TET",
+      "hebrew": ". S̆L ZHB",
+      "arabic": "S. PYHH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "foil or plate made of gold"
+    },
+    {
+      "section": "TET",
+      "hebrew": ".T .HWP",
+      "arabic": "\"GBR",
+      "romance_latin": "BRWN",
+      "botanical": "Lathyrus sativus L.",
+      "english": "dirty-white, grey",
+      "botanical_all": [
+        "Lathyrus sativus L.",
+        "Lathyrus Cicera"
+      ]
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YRBWZYN S̆L GNWT",
+      "arabic": "YRBWZ or BQLH \"LYM\"NYH",
+      "romance_latin": "BLYDZ",
+      "botanical": "Albersia Blitum",
+      "english": "blite"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YYWNWS",
+      "arabic": "YBWNWS, bibl. HBNYM, already mentioned under",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "ebony wood"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YW#ZR S̆DH",
+      "arabic": "PWDNĞ GBLY",
+      "romance_latin": "PWLYYG MWN .T\", there are six",
+      "botanical": "Adiantum capillum",
+      "english": ""
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YNS̆WP",
+      "arabic": "B\" S̆Q",
+      "romance_latin": "",
+      "botanical": "Asio otus",
+      "english": "musket, or sparrow-hawk; falco nisus"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YYNMLYN",
+      "arabic": "KMR M#MWL B\"L\"P\"WYH",
+      "romance_latin": "PYMN .T",
+      "botanical": "Pigment est",
+      "english": "wine mixed with honey"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "HYYN",
+      "arabic": "YKPY T#M",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "he or it conceals the taste of the ˘ wine"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YBLWT",
+      "arabic": "TW\"LYL",
+      "romance_latin": "BWRWGS̆",
+      "botanical": "",
+      "english": "wart"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YGM#",
+      "arabic": "YTMDM",
+      "romance_latin": "",
+      "botanical": "Someone suffering",
+      "english": "he swallows or quaffs"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YS̆KYL",
+      "arabic": "YNĞ .H",
+      "romance_latin": "",
+      "botanical": "David was",
+      "english": "he succeeds; he attains or accomplishes"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YTSWS",
+      "arabic": "YPWR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YTRQRQ",
+      "arabic": "YKDR",
+      "romance_latin": "TWRG\"",
+      "botanical": "Rock lobster",
+      "english": "to be light-colored, pale, green, yellow"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YTPLS.",
+      "arabic": "YRT#D",
+      "romance_latin": "",
+      "botanical": "Judah ben",
+      "english": "he or it shudders"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YS̆KS̆K",
+      "arabic": "YKDK",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "he knocks about, shakes, dabbles"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YW#ZR",
+      "arabic": "PWDNĞ",
+      "romance_latin": "PWLYYĞ",
+      "botanical": "Mentha pulegium L.",
+      "english": "",
+      "botanical_all": [
+        "Mentha pulegium L.",
+        "Bilam sur"
+      ]
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YLPT",
+      "arabic": ".HZ\"Z or \"BRYH",
+      "romance_latin": "",
+      "botanical": "Furfures capitis",
+      "english": "(Egyptian) lichen",
+      "botanical_all": [
+        "Furfures capitis",
+        "Dermatologie des",
+        "Jahrhundert unserer",
+        "Dermatologie und",
+        "Geschichte der",
+        "Aus den",
+        "Zusammenarbeit mit"
+      ]
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YTD",
+      "arabic": "WTD’",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "peg, nail, handle of a tool"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YLQH",
+      "arabic": "Y#TL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "he suffers, is at a disadvantage"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YM NPH, it is the middle of the sieve",
+      "arabic": "WST. \"LGRB\"L",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "the receiver of flour"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YRQWN",
+      "arabic": "YRQ\"N",
+      "romance_latin": "\"YQ .TRYSY\"",
+      "botanical": "Bozzi mentions",
+      "english": "jaundice"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YTBWLL",
+      "arabic": "YTS̆TT",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "he or it is thrown about"
+    },
+    {
+      "section": "YOD",
+      "hebrew": "YSWDWT",
+      "arabic": "\"L#N\" .SR",
+      "romance_latin": "",
+      "botanical": "Philosophical terms",
+      "english": "foundations, walls, bases",
+      "botanical_all": [
+        "Philosophical terms",
+        "Terms for",
+        "Moreh Nevukhim"
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KMWN MTWQ",
+      "arabic": "\"NYSWN",
+      "romance_latin": "\"NYS",
+      "botanical": "Cuminum cyminum L.",
+      "english": "sweet cumin",
+      "botanical_all": [
+        "Cuminum cyminum L.",
+        "Pimpinella anisum L."
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KLPY",
+      "arabic": "N\" .HYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "directed towards, opposite, against"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KMWN HRYM",
+      "arabic": "KMWN KRM\"NY",
+      "romance_latin": "S̆YLMWNT\"NWM",
+      "botanical": "Carum nigrum",
+      "english": "Bergkümmel",
+      "botanical_all": [
+        "Carum nigrum",
+        "Laserpitium siler",
+        "Seseli tortuosum L.",
+        "Sil montanum"
+      ],
+      "occitan": "silmontan"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KWRPS S̆BNHRWT",
+      "arabic": "B .TRS\"LYWN",
+      "romance_latin": "PY .TRW S̆LYNY",
+      "botanical": "Petroselinum sativum",
+      "english": "parsley",
+      "botanical_all": [
+        "Petroselinum sativum",
+        "Petroselinum hortense",
+        "Geonic literature"
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KWSMYN",
+      "arabic": "KRSNH",
+      "romance_latin": "\"RS̆S̆",
+      "botanical": "Triticum sativum",
+      "english": "spelt",
+      "botanical_all": [
+        "Triticum sativum",
+        "Triticum dicoccum Schrad.",
+        "Vicia ervilia Willd.",
+        "With regard",
+        "Syria call",
+        "Iraq call",
+        "Ervum ervilia"
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KRS̆YNYN",
+      "arabic": "\" S̆Q\"LYH",
+      "romance_latin": "WYSS̆",
+      "botanical": "Vicia ervilia L.",
+      "english": "bitter vetch",
+      "botanical_all": [
+        "Vicia ervilia L.",
+        "Triticum spelta L.",
+        "Vicia sativa"
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KRWB",
+      "arabic": "KRNB",
+      "romance_latin": "QWLS̆",
+      "botanical": "Brassica oleracea L.",
+      "english": "cabbage",
+      "occitan": "caul"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "K#KYN",
+      "arabic": "K#K",
+      "romance_latin": "BYS̆QWYY .T",
+      "botanical": "",
+      "english": "pronged and lengthy unleavened cake",
+      "occitan": "bescueit"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KMHYN",
+      "arabic": "KM\"H",
+      "romance_latin": "BWLYTS",
+      "botanical": "Tuber melanosorum L.",
+      "english": "truffles",
+      "botanical_all": [
+        "Tuber melanosorum L.",
+        "Terfezia leonis L."
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KRKWM",
+      "arabic": "Z#PR\"N",
+      "romance_latin": "KRWSY",
+      "botanical": "Crocus sativus",
+      "english": "saffron",
+      "botanical_all": [
+        "Crocus sativus",
+        "Curcuma longa L.",
+        "Crocus sativus L."
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KWSBR HBWR",
+      "arabic": "KSBWRH \"LBYR or BRS̆Y\"WS̆\"N",
+      "romance_latin": "Q\"PYLWS̆",
+      "botanical": "Judah ben",
+      "english": "maidenhair, Venus’ hair",
+      "botanical_all": [
+        "Judah ben",
+        "Adiantum capillus",
+        "Veneris for",
+        "Asplenium adiantum",
+        "Kelal Qaz"
+      ],
+      "occitan": "recipes"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KWRPS PRDSY",
+      "arabic": "KRPS",
+      "romance_latin": "\"PY",
+      "botanical": "Apium graveolens L.",
+      "english": "celery"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KMKYN",
+      "arabic": "KW\"MK",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a Persian sauce of milk, curdled milk"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KRS̆YN",
+      "arabic": "KR\"T",
+      "romance_latin": "PWRWS̆",
+      "botanical": "Allium porrum L.",
+      "english": "leek",
+      "occitan": "plural"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KS̆KWS̆",
+      "arabic": "H",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "eschar"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KBWS̆ WRDYM made with honey",
+      "arabic": "ĞLNĞBYN",
+      "romance_latin": "M\"L RWS̆D",
+      "botanical": "Los arabismos",
+      "english": "pressed or conserved roses",
+      "occitan": "mel"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KBWS̆ WRDYM made with sugar",
+      "arabic": "WRD MWRB\"",
+      "romance_latin": "SWKRY",
+      "botanical": "Rosenessenz gew",
+      "english": "rose-jam",
+      "occitan": "sucre"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KRYS̆Y S̆DH",
+      "arabic": "KR\"T ĞBLY",
+      "romance_latin": "PWRWS̆ S̆LY\" ĞYĞ",
+      "botanical": "Allium ampeloprasum",
+      "english": "mountain leek",
+      "botanical_all": [
+        "Allium ampeloprasum",
+        "Allium ampeloprasum L."
+      ]
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KWPR",
+      "arabic": ".HN\"",
+      "romance_latin": "\"LQN\"",
+      "botanical": "Lawsonia alba L.",
+      "english": "henna",
+      "occitan": "al"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KWWS.",
+      "arabic": "TS̆NĞ",
+      "romance_latin": "",
+      "botanical": "Spasmus clonicus",
+      "english": "spasm"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KMWS̆",
+      "arabic": "MTKMS̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "wrinkled"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KPYWN",
+      "arabic": "S. R#",
+      "romance_latin": "GWT\"",
+      "botanical": "",
+      "english": "epilepsy",
+      "occitan": "gota"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KLWNSWT",
+      "arabic": "RP\"YD",
+      "romance_latin": "",
+      "botanical": "Scincus officinalis",
+      "english": "beams of the loom"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KYS MQWH HMYM",
+      "arabic": "MT\"NH",
+      "romance_latin": "WYS̆YG\"",
+      "botanical": "",
+      "english": "the urinary bladder",
+      "occitan": "ve"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KHWT",
+      "arabic": "KMWDH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "dim or faint, dull"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KRWK",
+      "arabic": "M .TWY",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "twined around, wrapped up"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KDWRYM",
+      "arabic": "BN\"DQ",
+      "romance_latin": "BWDWQS̆",
+      "botanical": "",
+      "english": "ball, globe"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KD",
+      "arabic": "\"P .TS",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "arched or rounded"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KS̆YL",
+      "arabic": "P\"S",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a carpenter’s tool for chipping, axe"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "KLYL HMLK",
+      "arabic": "\"KLYL \"LMLK",
+      "romance_latin": "QWRWN\" RY\"L or MLYLWT.",
+      "botanical": "Melilotus officinalis L.",
+      "english": "kind of melilot",
+      "botanical_all": [
+        "Melilotus officinalis L.",
+        "Corona rregie",
+        "Melilotus officinalis"
+      ],
+      "occitan": "plant"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "K\"NWN\"",
+      "arabic": "K\"NWN",
+      "romance_latin": "PWGYRWN",
+      "botanical": "Mistral has",
+      "english": "a (fire) stand, a portable brazier",
+      "botanical_all": [
+        "Mistral has",
+        "Occitanism fogayr"
+      ],
+      "occitan": "fogairon"
+    },
+    {
+      "section": "KAF",
+      "hebrew": "K .HL",
+      "arabic": ".DR#",
+      "romance_latin": "\"WBYR",
+      "botanical": "",
+      "english": "udder, bag"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LPSN",
+      "arabic": "PR\"SYWN",
+      "romance_latin": "PR\" S̆YWM",
+      "botanical": "Brassica arvensis",
+      "english": "",
+      "botanical_all": [
+        "Brassica arvensis",
+        "Sinapis arvensis L.",
+        "Sinapis incana L.",
+        "Marrubium vulgare L."
+      ],
+      "occitan": "marrubi"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LPSN LBN",
+      "arabic": "MRM\" .HWR",
+      "romance_latin": "MRBYW",
+      "botanical": "Teucrium marum L.",
+      "english": "white charlock",
+      "botanical_all": [
+        "Teucrium marum L.",
+        "Origanum maru L."
+      ]
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LS̆WN H .SPWR",
+      "arabic": "LS\"N \"L# .SPWR",
+      "romance_latin": "LNG\" \"WYS̆",
+      "botanical": "Fraxinus excelsior L.",
+      "english": "",
+      "botanical_all": [
+        "Fraxinus excelsior L.",
+        "Judah ben",
+        "Ahavat nashim"
+      ]
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LWLBY GPNYM",
+      "arabic": "\" .TR\"P \"LKRM",
+      "romance_latin": "BRW .TS",
+      "botanical": "Levy mentions",
+      "english": "sprouts of grape-vine",
+      "occitan": "brotz"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LBYBH",
+      "arabic": "\" .TRYH",
+      "romance_latin": "MNWDY .TS",
+      "botanical": "Itriya was",
+      "english": "heart-shaped pastry",
+      "occitan": "word"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "L#WNYN",
+      "arabic": "QTP",
+      "romance_latin": "\"RMWLS̆",
+      "botanical": "Rumex acetosa",
+      "english": "garden orache",
+      "botanical_all": [
+        "Rumex acetosa",
+        "Artiplex hortensis L."
+      ],
+      "occitan": "armol"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "L#WNYN YMYYM",
+      "arabic": "MLWHYH",
+      "romance_latin": "MLB\" D\"WTR\"MR",
+      "botanical": "Malva silvestris",
+      "english": "mallow",
+      "botanical_all": [
+        "Malva silvestris",
+        "Corchorus olitorus L.",
+        "Corchorus trilocularis L.",
+        "Van outra",
+        "God did"
+      ]
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LS̆LS̆T, that is, the excrements of chicken",
+      "arabic": "ZBL \"LDĞ\" Ğ",
+      "romance_latin": "",
+      "botanical": "Arukh explains",
+      "english": "secretion, chicken’s dirt, spittle"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "L#WNYN YMYYM",
+      "arabic": "MLWKYH",
+      "romance_latin": "MLBH DWLTRM\"R",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LST",
+      "arabic": "KD",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "cheek, jaw"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LQH",
+      "arabic": "\"#TL",
+      "romance_latin": "",
+      "botanical": "Plantago major L.",
+      "english": ""
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "L .T\"H",
+      "arabic": "WZG\"",
+      "romance_latin": "",
+      "botanical": "Platodactylus muralis",
+      "english": "a species of lizard, gecko"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "L#NH",
+      "arabic": "\"LQM",
+      "romance_latin": "",
+      "botanical": "Artemisia absinthium L.",
+      "english": "wormwood",
+      "botanical_all": [
+        "Artemisia absinthium L.",
+        "Ecballium elaterium",
+        "Citrullus colocynthis"
+      ]
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LS̆WN HS̆WR",
+      "arabic": "LS\"N \"LTWR",
+      "romance_latin": "LNG\" BWBYN\"",
+      "botanical": "Anchusa officinalis",
+      "english": "bugloss",
+      "botanical_all": [
+        "Anchusa officinalis",
+        "Borago officinalis L.",
+        "Anchusa italica",
+        "Anchusa officialis L."
+      ],
+      "occitan": "linga"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LWGMYW",
+      "arabic": "S̆DQYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a mouthful, quantity of liquid filling one cheek"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LS̆WP",
+      "arabic": "YHK",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LWZYM",
+      "arabic": "BNDQ",
+      "romance_latin": "\"WYL\"NS̆",
+      "botanical": "Amygdalus communis L.",
+      "english": "hazelnut",
+      "botanical_all": [
+        "Amygdalus communis L.",
+        "Corylus avellana L."
+      ],
+      "occitan": "avelana"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LPLWP H#YN, that is, filth of the eye",
+      "arabic": "QD\" \"L#YN",
+      "romance_latin": "QS. YD\"",
+      "botanical": "Geonic commentary",
+      "english": "pus or purulent matter in the eye"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "L .HYKH",
+      "arabic": "L#WQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "licking"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LWH S̆L \"BN, on which the Arabs bake bread in the deserts",
+      "arabic": "RDP",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "plate made of stone"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LPT",
+      "arabic": "LPT",
+      "romance_latin": "NPS̆",
+      "botanical": "Brassica rapa L.",
+      "english": "turnip",
+      "botanical_all": [
+        "Brassica rapa L.",
+        "Brassica napus",
+        "Raphanus sativus",
+        "Mittelalters und",
+        "Juden als"
+      ]
+    },
+    {
+      "section": "LAMED",
+      "hebrew": ". TPLH",
+      "arabic": "H\"M",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "moisture, secretion"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": ". S. T HMN#L",
+      "arabic": "DG",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "pressing of the footwear"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LS̆WN HYM",
+      "arabic": "S̆BY\"",
+      "romance_latin": "SYPY\"",
+      "botanical": "Sepia officinalis L.",
+      "english": "sepia"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LSTWT",
+      "arabic": "KD\"N",
+      "romance_latin": "G\"WT. S̆",
+      "botanical": "",
+      "english": "Backe, Wange",
+      "occitan": "plural"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LWZYM HWDYYM",
+      "arabic": "PWPL",
+      "romance_latin": "\"BYL\"NH \"YNDYG\"",
+      "botanical": "Areca catechu L.",
+      "english": "areca nut",
+      "occitan": "avelana"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LPYTT H#S. B",
+      "arabic": "\"LTW\" \"L#S. B",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "strained nerves"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LPYTH",
+      "arabic": "\"LTW\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "turn, twist, bend, curve, entwinement"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LPWTY",
+      "arabic": "MLTWY",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "twisted, strained"
+    },
+    {
+      "section": "LAMED",
+      "hebrew": "LS̆WN YM",
+      "arabic": "B .HYRH",
+      "romance_latin": "\" S̆ .TNYY",
+      "botanical": "",
+      "english": "gulf"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWKL .H",
+      "arabic": "HRM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "ripeness, vigour"
+    },
+    {
+      "section": "MEM",
+      "hebrew": ". S̆B\"",
+      "arabic": "MLH",
+      "romance_latin": "S̆\"L \"YNDYG\"",
+      "botanical": "Sabean salt",
+      "english": "salt from India"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MQBT",
+      "arabic": "MNQ\"R",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "hammer, mallet, pickaxe"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MRTK\"",
+      "arabic": "MRTK",
+      "romance_latin": "LY .TRĞY",
+      "botanical": "Iranian murtak",
+      "english": "silver dross"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWR",
+      "arabic": "MSK",
+      "romance_latin": "MWS̆Q",
+      "botanical": "Commiphora abessinica",
+      "english": "myrrh",
+      "botanical_all": [
+        "Commiphora abessinica",
+        "Moschus moschiferus L.",
+        "Abraham ibn",
+        "Ezra objected",
+        "Yet despite",
+        "Moshe ben",
+        "Thus all"
+      ]
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MR",
+      "arabic": "MWR",
+      "romance_latin": "MYR\"",
+      "botanical": "Commiphora abysinnica",
+      "english": "myrrh"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MLPPWN",
+      "arabic": "QT\"",
+      "romance_latin": "PWQWSS̆",
+      "botanical": "Cucumis melo L.",
+      "english": "muskmelon",
+      "botanical_all": [
+        "Cucumis melo L.",
+        "Cucumis sativus L."
+      ]
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MGBY\"",
+      "arabic": "S̆B",
+      "romance_latin": "\"LWM",
+      "botanical": "",
+      "english": "alum"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MRBKT",
+      "arabic": "MTRWDH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "mixed (of dough)"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MY HDS̆N",
+      "arabic": "M\" \"LS. \"BWN",
+      "romance_latin": "LS̆YB",
+      "botanical": "Dozy explains",
+      "english": "Laugenwasser",
+      "occitan": "word"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "M#W .TR BRY .HNYM",
+      "arabic": "MPRWS̆ B\"LRY\" .HYN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "flavoured with aroma/spices"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MZLPYN",
+      "arabic": "YRS̆WN #LYH B\"LYD",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "dripping, sprinkling"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MGBY\" GYL\"",
+      "arabic": "S̆BYM\"NY",
+      "romance_latin": "\"LWM DYPLWM\"",
+      "botanical": "",
+      "english": "liquid alum"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "M\"YRWT",
+      "arabic": "DR\"RYH",
+      "romance_latin": "QNTRYDY",
+      "botanical": "Perhaps the",
+      "english": "curse",
+      "occitan": "In"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MSMR HGR#",
+      "arabic": "MBD#",
+      "romance_latin": "LNSYT\"",
+      "botanical": "",
+      "english": "blood letter’s lancet"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWS̆K HBRZL",
+      "arabic": "MGNYTS",
+      "romance_latin": "L\"PYS̆ QR\"MYTH",
+      "botanical": "",
+      "english": "magnetic stone"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MY HSPWN",
+      "arabic": "\"NS̆Y\"",
+      "romance_latin": "LS̆YBH",
+      "botanical": "",
+      "english": "soap"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MDWH HBYS. H",
+      "arabic": "D\" \"LBYS. H",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "contagious sickness of the testicles"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWRS\"",
+      "arabic": "WRM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "abscess, boil"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWGL\"",
+      "arabic": "QYH",
+      "romance_latin": "BR\" Ğ",
+      "botanical": "",
+      "english": "pus",
+      "occitan": "brach"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MPS. LYM",
+      "arabic": "MP\" S. L",
+      "romance_latin": "",
+      "botanical": "Joseph ben",
+      "english": "articulations",
+      "botanical_all": [
+        "Joseph ben",
+        "Meir ibn"
+      ]
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWZY",
+      "arabic": "MWZ",
+      "romance_latin": "PWM\" S̆ PYRYWS̆",
+      "botanical": "Musa paradisiaca",
+      "english": "bananas",
+      "botanical_all": [
+        "Musa paradisiaca",
+        "Geonic period",
+        "Alphita passage",
+        "Coromines suspects"
+      ]
+    },
+    {
+      "section": "MEM",
+      "hebrew": "ML .HH GLLNYT\"",
+      "arabic": "ML .H ĞRYS̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "salt in lumps, rock-salt"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MPRQT",
+      "arabic": "RQBH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "neck, nape"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MR .HS̆T",
+      "arabic": ".TNĞYR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "baking pan with lid"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MRWSS",
+      "arabic": "MHS̆M",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "cracked, crushed"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MSS",
+      "arabic": "RM\"NH \"LKRS̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "manyplies, omasum, the rennet bag"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MR\"H .SYNYT",
+      "arabic": "MR\"H .SYNYH",
+      "romance_latin": "",
+      "botanical": "Chinese mirror",
+      "english": "Chinese mirror"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MZLG",
+      "arabic": "NS̆L",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "(meat) fork (for taking meat out of the cauldron)"
+    },
+    {
+      "section": "MEM",
+      "hebrew": ". WS̆W# B\"BR",
+      "arabic": "MZĞĞ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "smeared, anointed"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MSP .HT",
+      "arabic": "QR .H \"LQWB\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a non-contagious disease, scaling, sore; skinrash"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MM#K",
+      "arabic": "Y# .SR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "crushing, pressing"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MMRS",
+      "arabic": "YMRWS",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "crushing, stirring, rubbing"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MSTLD",
+      "arabic": "MTQBS.",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "contracted, shrunk"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "M#S. D",
+      "arabic": "P\"S",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "adze, hatchet; tool, billhook"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MZRQ",
+      "arabic": "ZR\"QH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "syringe"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "M .HWDDWT",
+      "arabic": "MKRW .TH",
+      "romance_latin": "PY .TS̆ \"B .TWRN",
+      "botanical": "Occ expression",
+      "english": "shaped, rounded, polished"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MT .HL .HL",
+      "arabic": "MTHLHL\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "permeated, affected, injured, weakened"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWS̆Y#",
+      "arabic": "MWGYT",
+      "romance_latin": "\"YĞY\"H",
+      "botanical": "",
+      "english": "deliverer, saviour; protector, aider"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MS. WYYRT",
+      "arabic": "MRQWMH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "formed, shaped, painted, engraved"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MDBRYWT",
+      "arabic": "BRYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MGWRGR",
+      "arabic": "M .HBB",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "administered in the form of a pill"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MQWR",
+      "arabic": "MNK\" S̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a forceps"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MNPH",
+      "arabic": "MRW .HH",
+      "romance_latin": "WYN\"YYL",
+      "botanical": "",
+      "english": "fan, flabellum",
+      "occitan": "ventalh"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MLWY W#RWY",
+      "arabic": "TML\" \"L\"NYH B\"LM\" WTPRG",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "filling and emptying"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MZRH",
+      "arabic": "MZWD",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "travelling bag containing provisions"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MPSPS",
+      "arabic": "YTDLK",
+      "romance_latin": "",
+      "botanical": "Nazarite may",
+      "english": "separating, parting, tearing"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "M .HWL",
+      "arabic": ".TNBWR",
+      "romance_latin": ".TMBWRS̆",
+      "botanical": "Miriam the",
+      "english": ""
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MWK, that is S. MR GPN",
+      "arabic": "QTWN",
+      "romance_latin": "",
+      "botanical": "Gossypium herbaceum L.",
+      "english": "cotton, cotton . tree",
+      "botanical_all": [
+        "Gossypium herbaceum L.",
+        "Gossypium arboreum L."
+      ]
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MTQLQL",
+      "arabic": "MPSWD",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "disarranged, spoiled, ruined"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MS̆PY#YN",
+      "arabic": "MWPYYN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "giving and paying straight away and completely"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "ML .H M .H .SBY",
+      "arabic": "ML .H \"NDR\"NY",
+      "romance_latin": "S̆\"L ĞYM\"",
+      "botanical": "",
+      "english": "mineral-salt"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MRY\"",
+      "arabic": "G\"MWS",
+      "romance_latin": "BRWPWL",
+      "botanical": "What need",
+      "english": "fatted steer",
+      "occitan": "brufol"
+    },
+    {
+      "section": "MEM",
+      "hebrew": "MDBYQ HZHB",
+      "arabic": "TNK\"R",
+      "romance_latin": "BWRYYS̆",
+      "botanical": "",
+      "english": "sticking of gold"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NS̆DWR",
+      "arabic": "WS̆Q or \" S̆Q",
+      "romance_latin": "\"LMWNY\"Q",
+      "botanical": "Sal ammoniac",
+      "english": "gum ammoniac",
+      "botanical_all": [
+        "Sal ammoniac",
+        "Moroccan gum",
+        "Ferula communis L.",
+        "Ferula tingitana L."
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "N .TP",
+      "arabic": "M .S .TKY",
+      "romance_latin": "MS̆TYQ",
+      "botanical": "Commiphora opobalsami",
+      "english": "mastic gum",
+      "botanical_all": [
+        "Commiphora opobalsami",
+        "Cat mastec"
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NYNY\"",
+      "arabic": "N\"NKH",
+      "romance_latin": "\"MY\"WS̆",
+      "botanical": "Ammi copticum",
+      "english": "Bishop’s Weed, Ammi copticum",
+      "botanical_all": [
+        "Ammi copticum",
+        "Ammi visnaga",
+        "Ammi visnaga Lam."
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NS. S̆L RMWN",
+      "arabic": "GLNR",
+      "romance_latin": "BL\"WS̆TY\"",
+      "botanical": "",
+      "english": "pomegranate blossom"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NRD",
+      "arabic": "ND",
+      "romance_latin": "",
+      "botanical": "Parfum aus",
+      "english": "nard",
+      "botanical_all": [
+        "Parfum aus",
+        "Aloe und",
+        "Nardostachys Jatamansi"
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NK\"T",
+      "arabic": "KRWB",
+      "romance_latin": "KRWBY\" S̆",
+      "botanical": "Astragalus tragacantha",
+      "english": "ladanum resin",
+      "botanical_all": [
+        "Astragalus tragacantha",
+        "Astragalus gummifer",
+        "Ceratonia siliqua L."
+      ],
+      "occitan": "car"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NMYYH",
+      "arabic": "SNWR",
+      "romance_latin": "Q\"NPYR",
+      "botanical": "Herpestes ichneumon",
+      "english": "marten",
+      "botanical_all": [
+        "Herpestes ichneumon",
+        "Matres foina"
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "N .HRT H .HZH",
+      "arabic": "KS̆WNH \"L .SDR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "roughness"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NRTYQ",
+      "arabic": ".SDPH",
+      "romance_latin": "QWQYLYH",
+      "botanical": "",
+      "english": "case, casket"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NRTQYM",
+      "arabic": "\" .SD\"P",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NWS. T HPYRWT",
+      "arabic": "ZGB",
+      "romance_latin": "",
+      "botanical": "You who",
+      "english": "feathers, down"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NS.",
+      "arabic": "B\"ZY",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "falcon, hawk"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NYMY HMYM",
+      "arabic": "#LQ",
+      "romance_latin": "\"YRWĞS̆",
+      "botanical": "",
+      "english": "leeches",
+      "occitan": "word"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NMLK",
+      "arabic": "BDYLH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NPWS",
+      "arabic": "\"SPN\"RYH",
+      "romance_latin": "PS̆TYN\"GH",
+      "botanical": "Raphanus sativus L.",
+      "english": "carrot",
+      "botanical_all": [
+        "Raphanus sativus L.",
+        "Brassica napus L.",
+        "Daucus carota L."
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NQ#",
+      "arabic": "NQW#",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "to macerate, soak, steep"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "N#S. WS.",
+      "arabic": "SDR",
+      "romance_latin": "\"WNGL\" QBLYNH",
+      "botanical": "Alhagi camelorum",
+      "english": "Christ’s thorn",
+      "botanical_all": [
+        "Alhagi camelorum",
+        "Rhamnus spina",
+        "Zizyphus spina"
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NWP",
+      "arabic": "\"QLYM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "province, district, climate"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NDL",
+      "arabic": "#QRB\"N or SQWLWPNDRYWN",
+      "romance_latin": "STR\"Q",
+      "botanical": "Ceterach officinarum Willd.",
+      "english": "polyp, centipede",
+      "botanical_all": [
+        "Ceterach officinarum Willd.",
+        "Scolopendrium vulg",
+        "Asplenium scolopendrium L.",
+        "Scolopendrium vulgare",
+        "Asplenium Ceterach"
+      ]
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NPH",
+      "arabic": "MNHL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fan; winnow; sieve"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NKWT",
+      "arabic": "ZM\"NH",
+      "romance_latin": "QWNTRYY",
+      "botanical": "",
+      "english": "invalidity"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NQYWN",
+      "arabic": "B .HR\"N",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "crisis (of an illness)"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NQLWWS",
+      "arabic": "ĞW\"RS̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a variety of the date, nicolaos dates"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NTQ",
+      "arabic": "KLP",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "Trychophytosis, a fungus in the hair or beard"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NY#",
+      "arabic": "MK\" .T",
+      "romance_latin": "MWQ",
+      "botanical": "",
+      "english": "nasal mucus"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "N .HS̆T S̆RWP",
+      "arabic": "RWSKTĞ",
+      "romance_latin": "QWBRY \"RS̆",
+      "botanical": "",
+      "english": "burned copper",
+      "occitan": "compound"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NQWDWT",
+      "arabic": "BRS̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "speckled"
+    },
+    {
+      "section": "NUN",
+      "hebrew": "NY#YY",
+      "arabic": "MK\" .TY",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "slimy"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SMLK",
+      "arabic": "Y\"SMYN",
+      "romance_latin": "",
+      "botanical": "Jasminum Sambac",
+      "english": "jasmine"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SM\"",
+      "arabic": "ZRNYK",
+      "romance_latin": "\"WRPYMNT.",
+      "botanical": "",
+      "english": "drug, pigment, essence"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SQR\"",
+      "arabic": "MGR\"",
+      "romance_latin": "SNPYRH or L\"PYS̆ MGN\" .TYS̆",
+      "botanical": "",
+      "english": "red paint"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SRQ",
+      "arabic": "ZRQWN",
+      "romance_latin": "WYRMYLYWN",
+      "botanical": "Marsilian vermilhoun",
+      "english": "paint, yellow paint; bright red; cosmetic paint",
+      "botanical_all": [
+        "Marsilian vermilhoun",
+        "Cinabrio reducido"
+      ],
+      "occitan": "vermelhon"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SPWN",
+      "arabic": "S. \"BWN",
+      "romance_latin": "S̆BWN",
+      "botanical": "",
+      "english": "soap"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SYG HKSP",
+      "arabic": "KBT \"LP .DH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "dross, base metal; refuse; galina, silver dross"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SYG HBRZL",
+      "arabic": "KBT \"L .HDYD",
+      "romance_latin": "\" S̆KWRYH DY PR\" or PRWĞY",
+      "botanical": "",
+      "english": "iron dross"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SPGNYN",
+      "arabic": "QT\"YP",
+      "romance_latin": "BWNYY .TS̆",
+      "botanical": "",
+      "english": "cakes made of spongy dough, a sort of cracker",
+      "occitan": "bonheta"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SWLTNYT",
+      "arabic": "SLHPH",
+      "romance_latin": "TR",
+      "botanical": "",
+      "english": "a small fish; anchovy, sardine; herring; sandsmell"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SQYPS",
+      "arabic": "MNMS̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "freckled"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SQP",
+      "arabic": "NMS̆",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "lintel, threshold"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "S .HY .TT ZQN HTYS̆",
+      "arabic": "‘ .S\"RH L .HYH \"LTYS",
+      "romance_latin": "\"YBWQWS̆ .TYDWS",
+      "botanical": "Tragopogon porrifolius L.",
+      "english": "pressing, wringing",
+      "botanical_all": [
+        "Tragopogon porrifolius L.",
+        "Tragopogon pratensis L.",
+        "Cytinus hypocistis L.",
+        "Cistus villosus L.",
+        "Equisetum arvense L.",
+        "Plantago maior L.",
+        "Ipoquistidos est"
+      ],
+      "occitan": "as"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SWP",
+      "arabic": "BRDY",
+      "romance_latin": "",
+      "botanical": "Cyperus papyrus L.",
+      "english": "reed, bulrush"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SSY",
+      "arabic": "\" HR",
+      "romance_latin": "\" S̆PRY",
+      "botanical": "",
+      "english": "rough, harsh or coarse"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SWM\"Q",
+      "arabic": "SM\"Q",
+      "romance_latin": "",
+      "botanical": "Rhus coriaria L.",
+      "english": "red, dark"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SKSWK",
+      "arabic": "THYĞ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "conflict; confusion"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "S .HWS",
+      "arabic": "G .DRWP \"L\"DN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "the cartilages forming the ear, helix"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SPYR",
+      "arabic": "M\" S̆",
+      "romance_latin": "GRW .TS̆",
+      "botanical": "Phaseolus max L.",
+      "english": "Indian pea",
+      "botanical_all": [
+        "Phaseolus max L.",
+        "Phaseolus mungo L.",
+        "Vicia Narbonensis"
+      ]
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SY\"H",
+      "arabic": "Ğ#DH",
+      "romance_latin": "PWLYWM MWN .T\"NWM",
+      "botanical": "Satureia Thymbra",
+      "english": "savory",
+      "botanical_all": [
+        "Satureia Thymbra",
+        "Teucrium Polium",
+        "Teucrium Creticum"
+      ]
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SYD .HY",
+      "arabic": "ĞYR BGYR M .TPY",
+      "romance_latin": "Q\"LS WYW\"",
+      "botanical": "Hillel ben",
+      "english": "lime, plaster"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SMDR",
+      "arabic": "PQ\" .H",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "flower buds of the vine"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SGRYR",
+      "arabic": "ZMHRYR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "cloudburst; severe rain storm"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "STWNYWT",
+      "arabic": "S̆TWYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "signifying of, or relating to the winter season"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SWGY\"",
+      "arabic": "NS.",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "walk, course, practice"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SDN",
+      "arabic": "ZBRH",
+      "romance_latin": "\"YNGLWĞ\"",
+      "botanical": "",
+      "english": "",
+      "occitan": "engluge"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SRBN",
+      "arabic": "LĞWĞ, [which means in] translation: one who refuses",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SYP H#WRB",
+      "arabic": "SYP \"LGR\"B",
+      "romance_latin": "",
+      "botanical": "Gladiolus communis L.",
+      "english": ""
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SPSL",
+      "arabic": "MNBR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "frame, bench, stool"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SM HS. MR GPN",
+      "arabic": "DW\" \"LQTNH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a remedy [applied in] cotton"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SGY\" RGLY",
+      "arabic": "BSB\"YG",
+      "romance_latin": "PWLYPWDYWM",
+      "botanical": "Polypodium vulgare L.",
+      "english": ""
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SNWRYM",
+      "arabic": "‘S̆’",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "dazzling, deception"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SPWG",
+      "arabic": "\"SPNĞH",
+      "romance_latin": "\" S̆PWNG\"",
+      "botanical": "",
+      "english": "sponge"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SRYGYM, and it is written with Sin",
+      "arabic": "QDB\"N",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "grate, lattice"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SNH, M.l. SYNYM",
+      "arabic": "SN\"",
+      "romance_latin": "S̆\"N\"",
+      "botanical": "Rubus sanctus",
+      "english": "prick, thorn",
+      "botanical_all": [
+        "Rubus sanctus",
+        "Rubus discolor",
+        "Cassia angustifolia",
+        "Cassia obovata",
+        "Cassia officinalis"
+      ]
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SY .TNY",
+      "arabic": "MPLQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SYB",
+      "arabic": "LYP",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fibrous substance, bast of the palm tree"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SYBYY",
+      "arabic": "LYPYY\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fibrous"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SYGLY",
+      "arabic": "S#D\"",
+      "romance_latin": "SYPRWM",
+      "botanical": "Cyperus rotundus",
+      "english": "long galingale",
+      "botanical_all": [
+        "Cyperus rotundus",
+        "Cyperus longus L.",
+        "Cat ciperii",
+        "Cyperus longus",
+        "Caudiliach Coll"
+      ],
+      "occitan": "with"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SMDR S̆L HKRM",
+      "arabic": "PQ\" .H \"LKRM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "the blossom of the vine"
+    },
+    {
+      "section": "SAMEKH",
+      "hebrew": "SMR .TW .T QS̆H",
+      "arabic": "DRQH KS̆NH",
+      "romance_latin": "",
+      "botanical": "Geonic commentary",
+      "english": "a hard rag"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#YNBY HDS, these are its seeds",
+      "arabic": ".HB \"L RY .H\"N",
+      "romance_latin": "",
+      "botanical": "Myrtus communis L.",
+      "english": "seeds or berries of the myrtle"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#DS̆ HMYM",
+      "arabic": ".T .HLB",
+      "romance_latin": "LYN .TYLY\"SH",
+      "botanical": "Avot written",
+      "english": "duck weed",
+      "botanical_all": [
+        "Avot written",
+        "Simeon ben",
+        "Chaetomorpha linum"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RMWNYM",
+      "arabic": "QSTL",
+      "romance_latin": "QS̆TNY\"",
+      "botanical": "Platanus orientalis L.",
+      "english": "plane tree",
+      "occitan": "casta"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#NB HS̆W#L",
+      "arabic": "#NB \"LT#LB",
+      "romance_latin": "MWRYLH",
+      "botanical": "Solanum nigrum L.",
+      "english": "common/black nightshade"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RWD",
+      "arabic": ".HM\"R \"LW .HS̆",
+      "romance_latin": "",
+      "botanical": "Equus heminous",
+      "english": "wild ass"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#KBYWT",
+      "arabic": "KRS̆P",
+      "romance_latin": "QRDW",
+      "botanical": "Cynara cardunculus",
+      "english": "a species of edible thistles, cardoon",
+      "botanical_all": [
+        "Cynara cardunculus",
+        "Cynara Cardunculus"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#WLS̆YN",
+      "arabic": "HNDB\"",
+      "romance_latin": "QRDYLS̆",
+      "botanical": "Cichorium intibus L.",
+      "english": "endive",
+      "botanical_all": [
+        "Cichorium intibus L.",
+        "Cichorium endivia L."
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#WLS̆Y S̆DH",
+      "arabic": "HNDB\" BRY",
+      "romance_latin": "QRDYLS̆ S̆LW\" ĞYS̆",
+      "botanical": "Cichorium divaricatum",
+      "english": "field endive, wild chicory",
+      "botanical_all": [
+        "Cichorium divaricatum",
+        "Cichorium pumilum",
+        "Cichorium intybus L."
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#SYS H#NBYM",
+      "arabic": "MYBKTĞ",
+      "romance_latin": "S̆\"P\"",
+      "botanical": "",
+      "english": "must, young grape wine"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RQBLYN",
+      "arabic": "QRS. #NH",
+      "romance_latin": "\"YRYNĞYS̆ or P\"NYQ\"LD",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#R#R",
+      "arabic": "KRS̆P or KNGR",
+      "romance_latin": "QRDW",
+      "botanical": "Juniperus oxycedrus",
+      "english": "juniper",
+      "botanical_all": [
+        "Juniperus oxycedrus",
+        "Juniperus phoenicea",
+        "Cynara cardunculus L.",
+        "Cynara scolymus L.",
+        "Cynara Scolymus"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#WZRDYN",
+      "arabic": "Z#RWR",
+      "romance_latin": "S̆WRBS̆",
+      "botanical": "Crataegus azarolus L.",
+      "english": "medlar; azarole",
+      "botanical_all": [
+        "Crataegus azarolus L.",
+        "Sorbus domestica L."
+      ],
+      "occitan": "plural"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "# .TRN",
+      "arabic": "Q .TR\"N",
+      "romance_latin": "\"LQ .TR\"",
+      "botanical": "",
+      "english": "tar or liquid pitch"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RBH",
+      "arabic": "GRB or .SP .S\"P",
+      "romance_latin": "S̆LZY",
+      "botanical": "Salix babylonica L.",
+      "english": "salix",
+      "botanical_all": [
+        "Salix babylonica L.",
+        "Salix safsaf",
+        "Populus Euphratica"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "# .TLP",
+      "arabic": "PR\" S̆H or KWP\" S̆",
+      "romance_latin": "R\" .TH PYN\"DH",
+      "botanical": "",
+      "english": "bat"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#NYBH",
+      "arabic": "\"NS̆WTH",
+      "romance_latin": "LS",
+      "botanical": "Halakhic discussion",
+      "english": "fastening with a loop, necktie"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#S. YS.",
+      "arabic": "QS. RYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a common earthen vessel, especially a flower pot"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#KS̆WB",
+      "arabic": "RTYL\"",
+      "romance_latin": "",
+      "botanical": "Cerastes cornutus",
+      "english": "",
+      "botanical_all": [
+        "Cerastes cornutus",
+        "They sharpen",
+        "Jephet ben"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#KBYS̆",
+      "arabic": "#NKBWT",
+      "romance_latin": "",
+      "botanical": "Whose confidence",
+      "english": "spider"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RQWB",
+      "arabic": "#RQWB",
+      "romance_latin": "",
+      "botanical": "Yapheth ben",
+      "english": "hough, ham, the inner part of the knee"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#WRQYM",
+      "arabic": "‘DL",
+      "romance_latin": "",
+      "botanical": "Dunash ben",
+      "english": "muscles",
+      "botanical_all": [
+        "Dunash ben",
+        "Philosophical Terms"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#GWR",
+      "arabic": "KRKY",
+      "romance_latin": "",
+      "botanical": "Grus grus",
+      "english": "crane",
+      "botanical_all": [
+        "Grus grus",
+        "Philosophical Terms"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#NWH",
+      "arabic": "GRZH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "stalk of grapes; crop"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RLT HGRWN",
+      "arabic": "LH\"H",
+      "romance_latin": "LBL\"",
+      "botanical": "Halakhic discussion",
+      "english": "uvula",
+      "occitan": "leula"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#PRY",
+      "arabic": "\"GBR",
+      "romance_latin": "",
+      "botanical": "Judah ibn",
+      "english": "dusty, dirty, earth-like",
+      "botanical_all": [
+        "Judah ibn",
+        "Sefer Hovot"
+      ]
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RWGWT",
+      "arabic": "\" HW\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "planting area; garden bed"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#WWT HPH",
+      "arabic": "LQWH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "facial paresis"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#RYBH",
+      "arabic": "ĞPNH \"L#ĞYN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "trough, tub, kneading trough"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#S. Y S̆MN",
+      "arabic": "KS̆B \"LS. NWBR",
+      "romance_latin": "",
+      "botanical": "Pinus halepensis",
+      "english": "pine wood"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#WGYWT LGPNYM",
+      "arabic": "HPR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a cavity dug around a tree"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#PR SPRD",
+      "arabic": "TPL",
+      "romance_latin": "TYR\"",
+      "botanical": "Saponaria earth",
+      "english": "earth from Spain"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#YQRYN",
+      "arabic": "#Q\"QYR",
+      "romance_latin": "\" S̆PSY\" S̆",
+      "botanical": "",
+      "english": "spice",
+      "occitan": "especia"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#WQS. H .HW .TM",
+      "arabic": ".TRP \"L\"NP",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "end, point of the nose"
+    },
+    {
+      "section": "AYIN",
+      "hebrew": "#DL",
+      "arabic": "S̆YTR",
+      "romance_latin": "Q\"BS̆Y\"",
+      "botanical": "Lepidium latifolium L.",
+      "english": "peppergrass, cress",
+      "botanical_all": [
+        "Lepidium latifolium L.",
+        "Seitaragiem herba",
+        "Indicum piper"
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "PSTQYM",
+      "arabic": "PSTQ",
+      "romance_latin": "PS̆TWQS̆",
+      "botanical": "Iranian pistak",
+      "english": "pistachio, pistachio nut",
+      "botanical_all": [
+        "Iranian pistak",
+        "Pistacia vera L."
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "PYGM PRDSY",
+      "arabic": "SD\"B",
+      "romance_latin": "RWD\"",
+      "botanical": "Ruta graveolens L.",
+      "english": "garden rue"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PYGM S̆DH",
+      "arabic": "T\"PSY\"",
+      "romance_latin": "T\"P",
+      "botanical": "Thapsia garganica L.",
+      "english": "wild rue"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRSQ",
+      "arabic": "KWK",
+      "romance_latin": "PRYS̆GS̆",
+      "botanical": "Prunus persica Sieb.",
+      "english": "peach, peach tree"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PGWL HBS̆R",
+      "arabic": "ZPWRH \"LL .HM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "abomination, esp. of an improper sacrifice"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PR\"YM",
+      "arabic": "WHW",
+      "romance_latin": "",
+      "botanical": "Equus hemionus",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRQLM",
+      "arabic": "‘ .S\"BH",
+      "romance_latin": "",
+      "botanical": "Arukh the",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRQLYMYN",
+      "arabic": "‘ .S\"YB",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PDGR\"",
+      "arabic": "NQRS",
+      "romance_latin": "PWDGR\"",
+      "botanical": "Metathetic forms",
+      "english": "gout in the feet, sore foot"
+    },
+    {
+      "section": "PE",
+      "hebrew": "S̆L RMWN",
+      "arabic": "QM# \"LRM\"N",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "nipple on a pomegranate"
+    },
+    {
+      "section": "PE",
+      "hebrew": ". S̆T",
+      "arabic": "ZNG\"R",
+      "romance_latin": "WYRDYT. or PLWR DR\"M",
+      "botanical": "Judah ben",
+      "english": "verdigris"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PQW#WT",
+      "arabic": ".HN .TL",
+      "romance_latin": "QWLWQWN .TYD\"",
+      "botanical": "Citrullus colocynthis",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRGYN",
+      "arabic": "KS̆K\" S̆",
+      "romance_latin": "P\"P\"BRY",
+      "botanical": "Panicum miliaceum",
+      "english": "poppy",
+      "botanical_all": [
+        "Panicum miliaceum",
+        "Papaver somniferum L."
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "PLG",
+      "arabic": "P\"LG",
+      "romance_latin": "PWLYTYQY",
+      "botanical": "Nathan ben",
+      "english": "",
+      "botanical_all": [
+        "Nathan ben",
+        "Balm for",
+        "Hunt Don"
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRPRT",
+      "arabic": "\"LW\"N T#\"M",
+      "romance_latin": "",
+      "botanical": "Geonic commentary",
+      "english": "all kinds of food"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PTYGYL",
+      "arabic": "GL\"YL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "gorgeous dress"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRS",
+      "arabic": "#Q\"B",
+      "romance_latin": "WWLTWR",
+      "botanical": "Gypaetus barbatus",
+      "english": "vulture, or bearded vulture, Gypaetus barbatus"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PLPL HKWS̆YYM",
+      "arabic": "PLPL \"LSWD\"N",
+      "romance_latin": ".TRWPS̆ DYRWBYYS̆",
+      "botanical": "Ethiopian pepper",
+      "english": "Sudanese pepper",
+      "botanical_all": [
+        "Ethiopian pepper",
+        "Piper nigrum",
+        "Sudanese pepper",
+        "Xylopia aethiopica",
+        "Guinea pepper",
+        "Cyperus esculentus L.",
+        "Cyperus rotundus L."
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "PDGNG",
+      "arabic": "DRYRH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "P .TRYWT",
+      "arabic": "P .TR",
+      "romance_latin": "BWLY .TS",
+      "botanical": "",
+      "english": "truffles, fungi"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRW .TH",
+      "arabic": "KRWBH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "very small money or coin"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PT HDR\"H",
+      "arabic": "KBZ \"LKS̆K\"R",
+      "romance_latin": "",
+      "botanical": "Brot das",
+      "english": "bread made of seconds",
+      "botanical_all": [
+        "Brot das",
+        "Mehl gebacken",
+        "Cumulative indices"
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "PLPL \"RWK",
+      "arabic": "D\"R PLPL",
+      "romance_latin": "PYBRY LWNG",
+      "botanical": "Piper longum L.",
+      "english": "long pepper",
+      "botanical_all": [
+        "Piper longum L.",
+        "Piper chaba"
+      ],
+      "occitan": "pebre"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PLSLWS, these are field-lupines",
+      "arabic": "TRMWS BRY",
+      "romance_latin": "",
+      "botanical": "Vigna sinensis",
+      "english": "lupine",
+      "botanical_all": [
+        "Vigna sinensis",
+        "Lupinum luteus L.",
+        "Lupinus angustifolius L."
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "P .TDH",
+      "arabic": "ZMRD",
+      "romance_latin": "MYRGD\"",
+      "botanical": "",
+      "english": "topaz"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PYYLH",
+      "arabic": "QS. RYH",
+      "romance_latin": "",
+      "botanical": "Geonic commentary",
+      "english": "pot, flower pot; barrel"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PGWT",
+      "arabic": "PĞ\" ĞH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRYS̆WT",
+      "arabic": "#B\"DH",
+      "romance_latin": "\"RMT. S.",
+      "botanical": "Judah ibn",
+      "english": "hermit",
+      "occitan": "plural"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRWS. DWR",
+      "arabic": "DHLYZ, the PRWS. DWR is a Greek word, and it is [the",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PL .TR",
+      "arabic": "PR\"N",
+      "romance_latin": "PWRNYYR",
+      "botanical": "",
+      "english": "shop-keeper, esp. seller of bakers’ wares",
+      "occitan": "fornier"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRWR",
+      "arabic": "BR\"M",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "cooking pot"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PS̆PS̆YN",
+      "arabic": "BQ",
+      "romance_latin": "DNN\"",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PDLQWN",
+      "arabic": "HQNH",
+      "romance_latin": "QLS̆TRY",
+      "botanical": "",
+      "english": "the administration of a clyster; enema"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRWNQ\"",
+      "arabic": "KRQH",
+      "romance_latin": "",
+      "botanical": "Hananel explains",
+      "english": "rag"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PRGWD",
+      "arabic": ".HĞ\"B",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "PE",
+      "hebrew": "PQWQLYWT",
+      "arabic": "QTN",
+      "romance_latin": "",
+      "botanical": "Gossypium arboreum L.",
+      "english": "",
+      "botanical_all": [
+        "Gossypium arboreum L.",
+        "Gossypium herbaceum L."
+      ]
+    },
+    {
+      "section": "PE",
+      "hebrew": "PWQWT",
+      "arabic": "PW\"Q",
+      "romance_latin": "S̆NGLWT.",
+      "botanical": "Medicines attributed",
+      "english": "hiccough"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PLS. WT",
+      "arabic": "QS̆#R\"R",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "shuddering, horror"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PYHWQ",
+      "arabic": "TT\"WB",
+      "romance_latin": "BDLY\"R",
+      "botanical": "",
+      "english": "yawning"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PT S. NWMH BQ#RH",
+      "arabic": "KBZ MPTT PY \"LS. .HP\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "shrunk pieces of bread (soaked) in a bowl"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PYQH S̆L GRGRT",
+      "arabic": "\"LKRZH \"LKBYRH which is R\"S \"LHLQWM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "thyroid cartilage, Adam’s apple, larynx"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PR .SWP",
+      "arabic": ".HLYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "face, visage, front; features"
+    },
+    {
+      "section": "PE",
+      "hebrew": "P .TWMTY HS̆DYM",
+      "arabic": ".HLMTY \"LTDYY",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "the nipples of female breasts"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PYTQ\"",
+      "arabic": "PTQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "rupture; hernia"
+    },
+    {
+      "section": "PE",
+      "hebrew": "PYTQWT",
+      "arabic": "PTWQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SM .H SR .TNY",
+      "arabic": "SR .T\"N",
+      "romance_latin": "QRNQ",
+      "botanical": "",
+      "english": "a cancerous growth (tumour)"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. MWQY HHR",
+      "arabic": "ZBYB \"LĞBL or MYWBZĞ",
+      "romance_latin": "\" S̆TPYZQR\"",
+      "botanical": "Judah ben",
+      "english": "raisins"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SPY .HT",
+      "arabic": "Q .T\"YP",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "flat cake, pastry"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SPWRN",
+      "arabic": "\" .TP\"R \"L .TB",
+      "romance_latin": "\"BL\"Q .TY BZ\"N .TY",
+      "botanical": "Murex inflatus",
+      "english": "fragrant nail",
+      "botanical_all": [
+        "Murex inflatus",
+        "Strombus lentiginosus"
+      ]
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. MR GPN",
+      "arabic": "QTWN",
+      "romance_latin": "QWTWN",
+      "botanical": "Gossypium herbaceum L.",
+      "english": "cotton, cotton tree",
+      "botanical_all": [
+        "Gossypium herbaceum L.",
+        "Gossypium arboreum L."
+      ],
+      "occitan": "coton"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SW .SL\"",
+      "arabic": "P\"KTH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "dove"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SYPY .SMR",
+      "arabic": "ZWP\" R .TB",
+      "romance_latin": "",
+      "botanical": "Responsa literature",
+      "english": "pieces of wool, hatchelled wool"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. YS. HDRS. YN",
+      "arabic": "ZRNB",
+      "romance_latin": "PLWR DSNMWMW",
+      "botanical": "Flacourtia cataphracta Roxb.",
+      "english": "blossom of cinnamon",
+      "botanical_all": [
+        "Flacourtia cataphracta Roxb.",
+        "Taxus Baccata"
+      ]
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SPY#Y BQR",
+      "arabic": "RWT \"LBQR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "animals droppings, dung"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. NWN",
+      "arabic": "PĞL",
+      "romance_latin": "",
+      "botanical": "Raphanus sativus L.",
+      "english": "radish"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. YR or MWRYS",
+      "arabic": "MRY \"LHN",
+      "romance_latin": "",
+      "botanical": "Mediterranean world",
+      "english": "juice, brine (of meat, fish or fruits)",
+      "botanical_all": [
+        "Mediterranean world",
+        "Roman times",
+        "Islamic tradition"
+      ]
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. YHWB KMW S̆#R DQ",
+      "arabic": "ZGB",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fine yellow hairs,"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SN .SNT",
+      "arabic": "BRNYH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "basket"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".S\"T HS̆TN MBLY .HP .S",
+      "arabic": "DRB \"LBWL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "unwanted flow of urine"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ". BYN HS. L#WT",
+      "arabic": "D\"T \"LĞNB",
+      "romance_latin": "",
+      "botanical": "Pleuritis costalis",
+      "english": "growth between the sides/ ribs"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SM .H B .TRPS̆H",
+      "arabic": "S̆W .SH, o.l PLBYRS̆YN WYR\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "growth in the diaphragm, membrane"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. M .H HMW .H",
+      "arabic": "S̆RS\"M",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a growth in the brain"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SM .H BLWBN H#YN",
+      "arabic": "WDQH",
+      "romance_latin": "",
+      "botanical": "Dozy suppl",
+      "english": "a growth in the white of the eyes"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SM .H \"DMDM",
+      "arabic": "PLGMWNY",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "reddish growth"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SM .H GDWL W#MWQ",
+      "arabic": "MKB\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SADE",
+      "hebrew": ". BS. PWRN H\" S. B#",
+      "arabic": "D\" HS",
+      "romance_latin": "GL\"YY",
+      "botanical": "",
+      "english": "paronychia or whitlow"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SM .H MT .HT HLS̆WN",
+      "arabic": ".SPRD#",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SADE",
+      "hebrew": "DQYM BKL H#WR",
+      "arabic": "BTWR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "pimples, or small pustules"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. RBT",
+      "arabic": "TS̆YYT.",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "scar, scald"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. LS. LWT",
+      "arabic": "ZNĞLH",
+      "romance_latin": "S. MBS̆",
+      "botanical": "Jephet ben",
+      "english": "cymbals",
+      "botanical_all": [
+        "Jephet ben",
+        "Eli translates",
+        "Cat cemba",
+        "Yapheth ben"
+      ]
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. B",
+      "arabic": "DB",
+      "romance_latin": "",
+      "botanical": "Uromastix aegyptius",
+      "english": "thorntail lizard"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. BT",
+      "arabic": "KLBTYN",
+      "romance_latin": "TN\"LY",
+      "botanical": "",
+      "english": "tongs"
+    },
+    {
+      "section": "SADE",
+      "hebrew": ".SMR S̆W#",
+      "arabic": ".SWP MNPWS̆",
+      "romance_latin": "L\"N\" QRPYN\" .TH",
+      "botanical": "",
+      "english": "smooth, soft wool"
+    },
+    {
+      "section": "SADE",
+      "hebrew": "S. R#H",
+      "arabic": "ZNBWR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "hornet"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QYNBS",
+      "arabic": "S̆\"HD\"NĞ",
+      "romance_latin": "QNBWNS̆",
+      "botanical": "Cannabis sativa L.",
+      "english": "hemp, or seed of the hemp",
+      "botanical_all": [
+        "Cannabis sativa L.",
+        "Toratan shel"
+      ],
+      "occitan": "canabo"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QS̆W\"Y HHMWRYM",
+      "arabic": "QT\" \"L .HMYR",
+      "romance_latin": "QWGWMRY \"M\"R",
+      "botanical": "Ecbalium Elaterium",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QNYBT YRQ",
+      "arabic": "TQ .TY# \"LBQL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "cutting up vegetables"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QNH BS̆M",
+      "arabic": "QS. B \"LDRYRH",
+      "romance_latin": "Q\"LMWS̆ \"RWM\" TYQW",
+      "botanical": "Andropogon nardus",
+      "english": "wohlriechender Kalmus; Kahnbartgras",
+      "botanical_all": [
+        "Andropogon nardus",
+        "Calamus aromaticus",
+        "Acorus calamus L."
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QDH",
+      "arabic": "QWS .T",
+      "romance_latin": "QWS .TWS̆",
+      "botanical": "Poncirus trifoliata",
+      "english": "cinnamon blossom, clove of cinnamon",
+      "botanical_all": [
+        "Poncirus trifoliata",
+        "Flores Cassiae",
+        "Laurus Cassia"
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWMWS",
+      "arabic": "S. MG #RBY",
+      "romance_latin": "GWMY \"R\"BYQWM",
+      "botanical": "Acacia senegalensis",
+      "english": "gum, resin",
+      "botanical_all": [
+        "Acacia senegalensis",
+        "Acacia abyssinica",
+        "Acacia nilotica"
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QNMWN BS̆M",
+      "arabic": "QRPH QRNPLYH",
+      "romance_latin": "QNYL\"",
+      "botanical": "",
+      "english": "sweet cinnamon"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QNMWN",
+      "arabic": "QRPH",
+      "romance_latin": "",
+      "botanical": "Cinnamomum zeylanicum",
+      "english": "cinnamon, cinnamon tree",
+      "botanical_all": [
+        "Cinnamomum zeylanicum",
+        "Cortex cinnamomi",
+        "Joseph ben",
+        "Judah ibn"
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QPRS",
+      "arabic": "KBR",
+      "romance_latin": "Q\"PRYS̆",
+      "botanical": "Capparis spinosa L.",
+      "english": "caper bush"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QLQNTWS",
+      "arabic": "QLQNT",
+      "romance_latin": "\"GRYMN .T or WY .TRYWL",
+      "botanical": "Festschrift des",
+      "english": "vitriol",
+      "occitan": "airamen"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWR .TMYN",
+      "arabic": "QR .TM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWRNYT",
+      "arabic": ".H\" S̆\"",
+      "romance_latin": "S̆DRWĞ\"",
+      "botanical": "Thymus capitatus L.",
+      "english": "thyme",
+      "botanical_all": [
+        "Thymus capitatus L.",
+        "Satureja calamin",
+        "Thymus serpyllum L.",
+        "Satureja hortensis"
+      ],
+      "occitan": "sadreja"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QS̆WT",
+      "arabic": "QT\"",
+      "romance_latin": "",
+      "botanical": "Cucumis sativus L.",
+      "english": "cucumber"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWBLY",
+      "arabic": "B\"BWNĞ",
+      "romance_latin": "QMWMYL\"",
+      "botanical": "Matricaria chamomilla L.",
+      "english": "camomile",
+      "botanical_all": [
+        "Matricaria chamomilla L.",
+        "Roman camomile",
+        "Anthemis nobilis L.",
+        "Anthemis arvensis",
+        "Matricaria Parthenium"
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWRQS",
+      "arabic": "QLQ\"S",
+      "romance_latin": "",
+      "botanical": "Colocasia antiquorum",
+      "english": "black cumin",
+      "botanical_all": [
+        "Colocasia antiquorum",
+        "Nigella sativa L.",
+        "Nigella damascena L.",
+        "Nigella hispanica L."
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QRBS",
+      "arabic": "KRWYH",
+      "romance_latin": "KRWY",
+      "botanical": "Carum carvi L.",
+      "english": "caraway"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QNH",
+      "arabic": "#WD \"LR .TB",
+      "romance_latin": "LYNY\" LWB\"",
+      "botanical": "Arundo donax L.",
+      "english": "tender wood",
+      "botanical_all": [
+        "Arundo donax L.",
+        "Aquilaria agallocha Roxb.",
+        "Joseph ben",
+        "Judah ibn",
+        "Calamus odoratus"
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWM H .HLB",
+      "arabic": "MYS \"LLBN",
+      "romance_latin": "GS̆P\"",
+      "botanical": "",
+      "english": "curdled milk, whey"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QYQ or QYQYWN",
+      "arabic": "KRW#",
+      "romance_latin": "Q\" TPWSY\"",
+      "botanical": "Ricinus communis",
+      "english": "recinus tree, castor oil plant",
+      "botanical_all": [
+        "Ricinus communis",
+        "Euphorbia lathyris"
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QYLWR",
+      "arabic": "S̆Y\"P",
+      "romance_latin": "QWLYRY",
+      "botanical": "",
+      "english": "eye-salve, collyrium"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QYSWS",
+      "arabic": "LBL\"B",
+      "romance_latin": "QWRYWLH",
+      "botanical": "Hedera helix L.",
+      "english": "ivy",
+      "botanical_all": [
+        "Hedera helix L.",
+        "Convolvulus arvensis L.",
+        "Hedera Helix"
+      ],
+      "occitan": "correiola"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWR S̆L HWS. YN",
+      "arabic": "GM\"R \"LDWM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "heart or palm cabbage or terminal bud of a palm"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWR S̆L DQL",
+      "arabic": "ĞM\"R \"LNKL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QYNRS",
+      "arabic": "B\"DNG\"N",
+      "romance_latin": "BLYG\"N",
+      "botanical": "Cynara cardunculus L.",
+      "english": "artichoke",
+      "botanical_all": [
+        "Cynara cardunculus L.",
+        "Cynara scolymo L."
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QS̆YS̆YM",
+      "arabic": "ĞB\"YR",
+      "romance_latin": "\" S̆TYL",
+      "botanical": "",
+      "english": "splints put around a fracture",
+      "occitan": "estela"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QBSH",
+      "arabic": "TKMH",
+      "romance_latin": "",
+      "botanical": "Judah ibn",
+      "english": "indigestion"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QDQD",
+      "arabic": "Y\"PWK or H\"MH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "vertex, skull, head, crown, fontanel"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QM .TY HPNYM",
+      "arabic": "TS̆NĞ \"LWĞH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fold, crease, wrinkle, crumple"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWRNS",
+      "arabic": "MTRQH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "mallet, hammer"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QLYPH",
+      "arabic": "QS̆R SLYKH",
+      "romance_latin": "Q\" S̆Y\" LYNGY\"",
+      "botanical": "Cinnamomum cassia",
+      "english": "cassia-rind"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QMS̆WNYM",
+      "arabic": "#LYQ",
+      "romance_latin": "RWMZY",
+      "botanical": "Rubus idaeus L.",
+      "english": "weed; thorn, nettle",
+      "botanical_all": [
+        "Rubus idaeus L.",
+        "Rubus fructicosus L.",
+        "Jephet ben",
+        "Rubus fructicosus"
+      ],
+      "occitan": "romeze"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QN .TR S̆LBNY",
+      "arabic": "‘TLH \"LBN’",
+      "romance_latin": "",
+      "botanical": "Ali the",
+      "english": "builder’s pronged tool, bit, or auger"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QYRBS HRYM",
+      "arabic": "QRDM\"N\"",
+      "romance_latin": "K\"RWY S̆LB\" ĞY",
+      "botanical": "Carum carvi L.",
+      "english": "caraway",
+      "botanical_all": [
+        "Carum carvi L.",
+        "Lagoecia cuminoides L.",
+        "Elettaria cardamomum L."
+      ]
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWS̆YH",
+      "arabic": "MDHN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "utensil for oil; a flask or phial"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWDRYM",
+      "arabic": "MKDRH",
+      "romance_latin": "",
+      "botanical": "They are",
+      "english": "being dark, unclean"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWRSYL",
+      "arabic": "K#B",
+      "romance_latin": "TLWN",
+      "botanical": "",
+      "english": "bent, joint, ankle"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWR .T DM",
+      "arabic": "NQ .TH DM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "drop of coagulated blood, a particle of blood"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QNW .H S#WDH",
+      "arabic": "\"LTNQL B\"LP\"KHH B#D \"L .T#\"M",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "dessert"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QYSM",
+      "arabic": "KL\"L",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "chip (of wood), fragment, splinter, toothpick"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QL .H",
+      "arabic": ".DL# #SLWĞ MN \"LKRNB \"W MN \"LSLQ \"W MN \"LKS",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "tube, stem, stalk"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QLWSQYN",
+      "arabic": "KBZ MBZR MHKM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWLSY KRWB",
+      "arabic": "\" DL\"#",
+      "romance_latin": "QWS̆T\"",
+      "botanical": "",
+      "english": "cabbage heads or cabbage stalks",
+      "occitan": "costas"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QM .TYM",
+      "arabic": "#KN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "fold, crease, wrinkle, crumple"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QM .T",
+      "arabic": "#KNH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QW .TLYT",
+      "arabic": "‘Ğ’",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": "Q\"NWN",
+      "arabic": ".TBQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a certain household utensil; a dish, or plate"
+    },
+    {
+      "section": "QOF",
+      "hebrew": ". S. YH",
+      "arabic": "PQ\"R \"LTHR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "the joints of his hips"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWRY #S̆N",
+      "arabic": "#NKBWT",
+      "romance_latin": "TRNYYNH",
+      "botanical": "They hatch",
+      "english": "spider’s web"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWSSYM",
+      "arabic": "MWZ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "being sourish"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QLQNTWSYT",
+      "arabic": "ZNĞ\"RYH",
+      "romance_latin": "WY .TRYWLH",
+      "botanical": "",
+      "english": "vitriolic"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWR\"",
+      "arabic": ".HĞL",
+      "romance_latin": "PRDY .S",
+      "botanical": "Ammoperdix heyi",
+      "english": "partridge",
+      "botanical_all": [
+        "Ammoperdix heyi",
+        "Barbary partridge"
+      ],
+      "occitan": "perditz"
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QWSSWT",
+      "arabic": "PYH\" QRWSH WHMW",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": ". S. YH",
+      "arabic": "PQ\"R \"LTHR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "QOF",
+      "hebrew": "QM#H",
+      "arabic": "GR#H",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a gulp, a sup, or sip, or a mouthful"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RBH",
+      "arabic": "KTYR\"",
+      "romance_latin": "DRGGNT",
+      "botanical": "Astragalus gummifer",
+      "english": "matèria gomosa que surt naturalment de l",
+      "botanical_all": [
+        "Astragalus gummifer",
+        "Asian bush"
+      ]
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RYMYN",
+      "arabic": "NBQ",
+      "romance_latin": "QWRNY\"L, Lat. \"WRNGS̆",
+      "botanical": "Zizyphus spina",
+      "english": "the fruit of the Christ’s thorn",
+      "botanical_all": [
+        "Zizyphus spina",
+        "Cornelean cherry",
+        "Cornus mas",
+        "Piemontese cornal",
+        "Cornus sanguinea",
+        "Citrus aurantium",
+        "Sorbus domestica"
+      ],
+      "occitan": "term"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RGYLH",
+      "arabic": "BQLH \"LHMQH",
+      "romance_latin": "BYRDWLG\"",
+      "botanical": "Portulaca oleracea L.",
+      "english": "portulaca, purslane"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RWBY\"",
+      "arabic": "LWBY\"",
+      "romance_latin": "PYS̆WLS̆",
+      "botanical": "Vigna sinensis",
+      "english": "",
+      "botanical_all": [
+        "Vigna sinensis",
+        "Libyan bean"
+      ]
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RKP\"",
+      "arabic": "S̆GRH MRYM",
+      "romance_latin": "TNRYD\"",
+      "botanical": "Reseda luteola L.",
+      "english": "dyer’s weed",
+      "botanical_all": [
+        "Reseda luteola L.",
+        "Cachrys etc",
+        "Chrysanthemum balsamita L.",
+        "Tanacetum vulgare",
+        "Pren cauls",
+        "Geschichte und"
+      ]
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R .TYT HTWMR",
+      "arabic": "MRHM NKLY",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "date ointment"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RQYQYM",
+      "arabic": "RQ\"Q",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "wafer; thin bread; flat cake"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RMS.",
+      "arabic": "RM\"D SHN \"LDY PYH BQYH N\"R",
+      "romance_latin": "",
+      "botanical": "Ein anonymes",
+      "english": "hot ashes, embers"
+    },
+    {
+      "section": "RESH",
+      "hebrew": ". S.",
+      "arabic": "SLS \"LBWL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "increase and unwanted flow of urine"
+    },
+    {
+      "section": "RESH",
+      "hebrew": ". S̆",
+      "arabic": "RS̆H",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "to be moved, to feel, to think"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RPPWT",
+      "arabic": "\"KTL\" Ğ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R#YS̆H",
+      "arabic": "R#S̆H",
+      "romance_latin": "",
+      "botanical": "Judah ben",
+      "english": ""
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R#YMT PNYM",
+      "arabic": "QTWB",
+      "romance_latin": "",
+      "botanical": "Their faces",
+      "english": ""
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RS. PH",
+      "arabic": "BL\" TH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "stone pavement; block pavement; mosaic floor"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R .T .T",
+      "arabic": "WĞ# \"LMP\" .SL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "arthritis"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R#PYM",
+      "arabic": "QR\"MYT.",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "RESH",
+      "hebrew": ". S̆",
+      "arabic": "DBYB",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "a creeping thing, reptile"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RQW#Y P .HYM",
+      "arabic": "S. P\"Y .H RQ\"Q",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "plates which have been beaten flat"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RBYDWT",
+      "arabic": "MH\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "incision, scratch"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RTT",
+      "arabic": "R#DH",
+      "romance_latin": "",
+      "botanical": "Jephet ben",
+      "english": "trembling"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R\"MWT",
+      "arabic": "H",
+      "romance_latin": "",
+      "botanical": "Ali the",
+      "english": "diamond"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R\" S̆ H#YN",
+      "arabic": "\"LM\"Q \"L\"KBR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "head of the eye"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RDYDYM",
+      "arabic": "\"RDYH",
+      "romance_latin": "",
+      "botanical": "From the",
+      "english": "shawl, headcloth"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RTM",
+      "arabic": "RTM",
+      "romance_latin": "",
+      "botanical": "Retama roetam",
+      "english": "gorse, broom"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RMWN HRYM, which grows overseas",
+      "arabic": "M#\"D",
+      "romance_latin": "",
+      "botanical": "Glossostemon result",
+      "english": "mountain pomegranate"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "R .HM",
+      "arabic": "RKM",
+      "romance_latin": "",
+      "botanical": "Vultur percnopterus",
+      "english": "vulture, the Egyptian vulture",
+      "botanical_all": [
+        "Vultur percnopterus",
+        "Neophron percnopterus"
+      ]
+    },
+    {
+      "section": "RESH",
+      "hebrew": ". #W#YM",
+      "arabic": "TS̆WYS̆",
+      "romance_latin": "",
+      "botanical": "Egypt astray",
+      "english": "spirit of confusion"
+    },
+    {
+      "section": "RESH",
+      "hebrew": "RMWN HRYM, which grows overseas",
+      "arabic": "M#\"D",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆BT",
+      "arabic": "S̆BT",
+      "romance_latin": "\"NY .T",
+      "botanical": "Anethum graveolens L.",
+      "english": "dill",
+      "botanical_all": [
+        "Anethum graveolens L.",
+        "Anethum graveolens"
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MS̆WQ",
+      "arabic": "MRZNGWS̆ or \"D\"N \"LP\"R",
+      "romance_latin": "MĞWR\"NH",
+      "botanical": "Origanum majorana L.",
+      "english": "marjoram",
+      "botanical_all": [
+        "Origanum majorana L.",
+        "Origanum majorana"
+      ],
+      "occitan": "majorana"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆YT",
+      "arabic": "QYS. WM",
+      "romance_latin": "\"BRWNTNWM",
+      "botanical": "Ononis antiquorum L.",
+      "english": "southern wood",
+      "botanical_all": [
+        "Ononis antiquorum L.",
+        "Artemisia abrotanum L."
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MYR",
+      "arabic": ".HSK",
+      "romance_latin": "\" .TRYPWLY MRYNY",
+      "botanical": "Daucus aureus",
+      "english": "",
+      "botanical_all": [
+        "Daucus aureus",
+        "Daucus maximus",
+        "Paliurus aculeatus Lam.",
+        "Isaiah together",
+        "Tribulus terrestris L.",
+        "Tribulus lanuginosus L."
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RP H\"LH",
+      "arabic": "S. MG \"LS. NWBR",
+      "romance_latin": "TRBN",
+      "botanical": "Pinus halepensis Mill.",
+      "english": "resin of the terebinth tree",
+      "botanical_all": [
+        "Pinus halepensis Mill.",
+        "Pinus pinea L.",
+        "Pistacia Terebinthus"
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆HLT",
+      "arabic": "L\"DN",
+      "romance_latin": "L\"DNWM",
+      "botanical": "Cistus creticus L.",
+      "english": "onycha, unguis odorati",
+      "botanical_all": [
+        "Cistus creticus L.",
+        "Cistus ladaniferus",
+        "Akkadian ladinnu"
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆S̆R",
+      "arabic": "ZNGPWR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "vermillion, minium"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MN \"PRSMWN",
+      "arabic": "DHN BLS\"N",
+      "romance_latin": "BS̆MY",
+      "botanical": "Commiphora opobalsamum",
+      "english": "oil of the balsam tree"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆YPWN",
+      "arabic": "SLT",
+      "romance_latin": "S̆YGL",
+      "botanical": "Avena sativa L.",
+      "english": "naked barley",
+      "botanical_all": [
+        "Avena sativa L.",
+        "Triticum spelta"
+      ],
+      "occitan": "seg"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆BWLT HWDYYT",
+      "arabic": "SNBL HNDY",
+      "romance_latin": "\" S̆PYQ\" N\"RDY",
+      "botanical": "Nardostachys jatamansi",
+      "english": "ear of corn"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆BWLT RWMYYT",
+      "arabic": "SNBL RWMY",
+      "romance_latin": "\" S̆PYQ\" S\"L .TYQ\"",
+      "botanical": "Valeriana celtica L.",
+      "english": "Greek nard"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WMR",
+      "arabic": "R\"ZY\"NĞ or BSB\"S",
+      "romance_latin": "PNWLYY",
+      "botanical": "Foeniculum vulgare",
+      "english": "fennel",
+      "botanical_all": [
+        "Foeniculum vulgare",
+        "Foeniculum officinale",
+        "Sefer Kaftor"
+      ],
+      "occitan": "fenol"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆BR\"",
+      "arabic": ".HRML",
+      "romance_latin": "S̆QW .T\"",
+      "botanical": "Peganum harmala L.",
+      "english": "Syrian rue",
+      "botanical_all": [
+        "Peganum harmala L.",
+        "Conium maculatum L.",
+        "Oppi qui"
+      ],
+      "occitan": "recipes"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MN QYQ",
+      "arabic": "DHN \"LKRW#",
+      "romance_latin": "\"WLY DYQ .T\"PWSY\"",
+      "botanical": "Ricinus communis L.",
+      "english": "oil of the recinus tree or castor oil plant",
+      "botanical_all": [
+        "Ricinus communis L.",
+        "Cat oli",
+        "Cat catapucia"
+      ],
+      "occitan": "term"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WMNYT",
+      "arabic": "TWM BRY",
+      "romance_latin": "\"LYY \"GRS̆T",
+      "botanical": "Allium sativum L.",
+      "english": "wild garlic",
+      "botanical_all": [
+        "Allium sativum L.",
+        "Teucrium scordium L."
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MN \"LWNYM",
+      "arabic": "DHN \"LS. NWBR",
+      "romance_latin": "\"WLY DPYNY\" S̆",
+      "botanical": "Pinus halepensis Mill.",
+      "english": "oil of the terebinth or oak tree",
+      "botanical_all": [
+        "Pinus halepensis Mill.",
+        "Pinus pinea L."
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MN \"NPQNYN, i.e. S̆MN HHWS. \"H",
+      "arabic": "ZYT \"L\"NP\"Q",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "oil made of unripe olives"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WS̆NT HMLK",
+      "arabic": "S̆Q\"YQ \"LN#M\"N",
+      "romance_latin": "RWS̆YLS̆",
+      "botanical": "Lilium candidum L.",
+      "english": "king’s lily, white lily",
+      "botanical_all": [
+        "Lilium candidum L.",
+        "Anemone coronaria L.",
+        "Anemone hortensis",
+        "Papaver rhoeas",
+        "Anemone nemorosa",
+        "Anemone coronaria"
+      ],
+      "occitan": "rozel"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆#W#YT",
+      "arabic": "ĞLB\"N",
+      "romance_latin": "PYS̆WLS̆",
+      "botanical": "Vigna sinensis",
+      "english": "a species of beans",
+      "botanical_all": [
+        "Vigna sinensis",
+        "Lathyrus cicera",
+        "Phaseolus vulgaris",
+        "Lathyrus sativus L."
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MN SMLQ",
+      "arabic": "DHN \"LY\"SMYN",
+      "romance_latin": "\"WLY ZNBRY",
+      "botanical": "Whereas the",
+      "english": "jasmine oil"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆PN",
+      "arabic": "QWNYYL",
+      "romance_latin": "",
+      "botanical": "Procavia syriaca",
+      "english": "rock badger, hyrax, dassie"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RP HKRM",
+      "arabic": ".SMGH Q .DB\"N \"LKRM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "vineyard"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RPYM",
+      "arabic": "S. MWG\"T",
+      "romance_latin": "GWM\" S̆",
+      "botanical": "",
+      "english": "resin; gum",
+      "occitan": "gom"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WS̆N",
+      "arabic": "SWSN",
+      "romance_latin": "\"YLY",
+      "botanical": "Lilium canditum L.",
+      "english": "lily",
+      "botanical_all": [
+        "Lilium canditum L.",
+        "All these"
+      ],
+      "occitan": "ili"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RP S̆#WRYM",
+      "arabic": ".HSW S̆#YR",
+      "romance_latin": "",
+      "botanical": "Hordeum sativum L.",
+      "english": "barley"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆BBYM",
+      "arabic": "S̆ .T\"Y\"",
+      "romance_latin": "\" S̆QYRLS̆",
+      "botanical": "Yefet ben",
+      "english": "splinters",
+      "botanical_all": [
+        "Yefet ben",
+        "Eli explains",
+        "Ali the"
+      ],
+      "occitan": "esquirle"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆QWY",
+      "arabic": "\"STSQ\"",
+      "romance_latin": "\"NDRWPS̆Y\" or \"YNGNWS",
+      "botanical": "",
+      "english": "dropsy",
+      "occitan": "are"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆SW#",
+      "arabic": "PTQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "rending, splitting"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RP HBS̆M",
+      "arabic": "#LK \"LQRNPL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "the resin of the balsam tree"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RS̆Y HBK\"YM",
+      "arabic": "\" .SWLY \"LTWT \"LKBYR",
+      "romance_latin": "",
+      "botanical": "Morus nigra L.",
+      "english": "roots of BK",
+      "botanical_all": [
+        "Morus nigra L.",
+        "Pistacia lenticus",
+        "Celtis australis L.",
+        "Pirus communis L."
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆DPWN",
+      "arabic": "DQ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "scorching, burning; blast, blight"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RPT HS̆TN",
+      "arabic": "HRQH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "Harnbrennen; Dysuria"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WHM",
+      "arabic": "BL\"R",
+      "romance_latin": "QRYS̆ .T\"L",
+      "botanical": "Symmachus etc",
+      "english": "rock-crystal",
+      "occitan": "cristal"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆PWPRT HQNH",
+      "arabic": "\"NBWB \"LQS. BH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "tube of reed"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆S̆ MS̆ZR",
+      "arabic": "KT\"N MPTWL",
+      "romance_latin": "",
+      "botanical": "Linum usitatissimum L.",
+      "english": "twisted linen"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆LHBT",
+      "arabic": "S̆#LH",
+      "romance_latin": "",
+      "botanical": "Onkelos has",
+      "english": "flame, flaming fire"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RS̆Y WRDY H .HMWRYM",
+      "arabic": "P\"WNY\"",
+      "romance_latin": "P\"WNYH",
+      "botanical": "Paeonia corallina",
+      "english": "the roots of peony",
+      "botanical_all": [
+        "Paeonia corallina",
+        "Paeonia foemina"
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆YPWT",
+      "arabic": "SNWN\"T",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆YPH",
+      "arabic": "SNWN",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WR HYRQWT",
+      "arabic": "S̆\"HTRĞ",
+      "romance_latin": "PWMWS̆ .TYR\"",
+      "botanical": "Fumaria officinalis L.",
+      "english": "king of vegetables",
+      "botanical_all": [
+        "Fumaria officinalis L.",
+        "Fumaria officinalis"
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WRS̆Y HS̆WS̆",
+      "arabic": "#RWQ \"LSWS",
+      "romance_latin": "RYQLYSY\"",
+      "botanical": "Glycyrrhiza glabra L.",
+      "english": "roots of licorice"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆RS̆Y \"YLN RMWN HRYM, which grows overseas",
+      "arabic": "M#\"D",
+      "romance_latin": "",
+      "botanical": "Bruguieri research",
+      "english": "the root of glossostemon"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆MS̆H BYTH, i.e. her husband slept with her",
+      "arabic": "G\"M#H\" ZWĞH\"",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "she had intercourse"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆WPYN\"",
+      "arabic": "MBRD",
+      "romance_latin": "",
+      "botanical": "Judah ben",
+      "english": "file"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆ .HT",
+      "arabic": "QSYL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "bound, joint"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆S̆ MS̆ZR or S̆DR\"",
+      "arabic": "KT\"N MGZWL",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "twisted linen"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆ZRH",
+      "arabic": "KRZH \"LS. LB",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "cord, esp. spinal column; skeleton"
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆BR\"",
+      "arabic": "HRML",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆PWLY H\" .S .TWMK\"",
+      "arabic": "KML \"LM#DH",
+      "romance_latin": "",
+      "botanical": "Corrigenda compiled",
+      "english": "",
+      "botanical_all": [
+        "Corrigenda compiled",
+        "Mittelalters und",
+        "Juden als"
+      ]
+    },
+    {
+      "section": "SHIN",
+      "hebrew": "S̆ .HR .HWR",
+      "arabic": "\"DM",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "darkish colour (of the face)"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TRY\"Q\"",
+      "arabic": "TRY\"Q",
+      "romance_latin": "",
+      "botanical": "Medicines composed",
+      "english": ""
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TRMWSYN",
+      "arabic": "TRMWS",
+      "romance_latin": "LWPYNS̆",
+      "botanical": "Lupinus termis L.",
+      "english": "lupine",
+      "botanical_all": [
+        "Lupinus termis L.",
+        "Arabism tram"
+      ],
+      "occitan": "lopin"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TWTYM",
+      "arabic": "TWT",
+      "romance_latin": "MWRS̆",
+      "botanical": "Morus nigra",
+      "english": "mulberry",
+      "botanical_all": [
+        "Morus nigra",
+        "Morus alba L.",
+        "Morus nigra L."
+      ]
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TRDYN",
+      "arabic": "SLQ",
+      "romance_latin": "BLYDS̆",
+      "botanical": "Beta vulgaris",
+      "english": "a species of beet; spinach beet",
+      "botanical_all": [
+        "Beta vulgaris",
+        "Spinacia oleracea Mill.",
+        "Beta vulgaris L."
+      ]
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TRWBTWR",
+      "arabic": "QNBY .T",
+      "romance_latin": "",
+      "botanical": "Brassica oleracea",
+      "english": "a variety of cabbage; garden cabbage",
+      "botanical_all": [
+        "Brassica oleracea",
+        "Brassica oleracea L."
+      ]
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TMKH",
+      "arabic": "S̆YLM",
+      "romance_latin": "GWLYWM",
+      "botanical": "Chichorium divaricatum",
+      "english": "darnel grass",
+      "botanical_all": [
+        "Chichorium divaricatum",
+        "Lolium temulentum L."
+      ],
+      "occitan": "synonym"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TLTWLY BS̆R",
+      "arabic": "SL#",
+      "romance_latin": "LWPY\"H",
+      "botanical": "Tumor cysticus",
+      "english": "wart; flesh growth"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TNS̆MT",
+      "arabic": "S̆\"HYN",
+      "romance_latin": "",
+      "botanical": "Chamaeleon vulgaris",
+      "english": "white falcon; gerfalcon; falcon gentle",
+      "botanical_all": [
+        "Chamaeleon vulgaris",
+        "Tyto alba"
+      ]
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TR#LH",
+      "arabic": "SDR",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "reeling"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "T .HMS",
+      "arabic": "K .T\" .TYP",
+      "romance_latin": "",
+      "botanical": "Falco tinnunculus",
+      "english": "swallow"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TWL#T S̆NY",
+      "arabic": "S. WP MS. BWG QRMZ",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "worm"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TWS̆BT",
+      "arabic": "MQ#DH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "anus"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "T#LWL",
+      "arabic": "#BT",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TWRMYL",
+      "arabic": "GL\"P",
+      "romance_latin": "",
+      "botanical": "",
+      "english": ""
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TWNB\"",
+      "arabic": "KDR",
+      "romance_latin": "\"DWRMYMN .T",
+      "botanical": "Aphoysis sensus",
+      "english": "numbness"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TYQ",
+      "arabic": "GL\"P as well, but TYQ is made of wood and TWRML is made",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "casing, sheath"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TRWD",
+      "arabic": "ML#QH",
+      "romance_latin": "",
+      "botanical": "",
+      "english": "spoon, ladle"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TBN MS̆\"",
+      "arabic": "TBN MKH",
+      "romance_latin": "\" S̆QYNNTY",
+      "botanical": "Cymbopogon schoenanthus L.",
+      "english": "crushed stalks, straw, chaff",
+      "occitan": "squinanti"
+    },
+    {
+      "section": "TAV",
+      "hebrew": "TWBL",
+      "arabic": ".SYN",
+      "romance_latin": "",
+      "botanical": "Rheum ribes L.",
+      "english": "Tabal"
+    }
+  ],
+  "sefer_almansur": [
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Asarabacca",
+      "botanical": "Asarum Europaeum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Dodder",
+      "botanical": "Cuscuta epithymum Murray and Var.",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Camel grass",
+      "botanical": "Cymbopogon schoenanthus",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Barberry",
+      "botanical": "Berberis vulgaris",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Gum ammoniac",
+      "botanical": "Dorema Ammoniacum Don.",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Emblic myrobalan",
+      "botanical": "Phyllanthus Emblica",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Roman nettle",
+      "botanical": "Urtica pilulifera",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Sea squill",
+      "botanical": "Drimia maritima, synonym: Scilla maritima",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Absinth/wormwood",
+      "botanical": "Artemisia absinthium",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "French lavender",
+      "botanical": "Lavendula stoechas",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Anise",
+      "botanical": "Pimpinella anisum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Acacia gum",
+      "botanical": "Senegal gum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Lichen",
+      "botanical": "Alectoria usneoides",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Sarcocol",
+      "botanical": "Astragalus sarcocolla",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Savin juniper",
+      "botanical": "Juniperus sabina",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ALEF",
+      "english": "Beleric myrobalan",
+      "botanical": "Terminalia bellirica",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "BET",
+      "english": "Balsam tree",
+      "botanical": "Commiphora opobalsamum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "BET",
+      "english": "Black henbane",
+      "botanical": "Hyoscyamus niger var. albus",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "BET",
+      "english": "Maidenhair fern",
+      "botanical": "Adiantum capillus Veneris",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "BET",
+      "english": "Marking nut",
+      "botanical": "Semecarpus anacardium",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "GIMEL",
+      "english": "Wild sesame",
+      "botanical": "Reseda alba",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "HE",
+      "english": "Yellow myrobalan",
+      "botanical": "Terminalia citrina Roxb.",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "HE",
+      "english": "Cardamom",
+      "botanical": "Elettaria Cardamomum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "WAW",
+      "english": "Sweet flag",
+      "botanical": "Acorus calamus",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "WAW",
+      "english": "Woad",
+      "botanical": "Isatis tinctoria",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ZAYIN",
+      "english": "Bitter ginger",
+      "botanical": "shampoo ginger, Zingiber zerumbet",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "ZAYIN",
+      "english": "Harmel",
+      "botanical": "Peganum harmala",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "YOD",
+      "english": "Stinking bean trefoil",
+      "botanical": "Anagyris foetida",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "KAF",
+      "english": "Fern",
+      "botanical": "Dryopteris filix mas [L.] Schott and Var.",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "KAF",
+      "english": "Hellebore",
+      "botanical": "i.e., black hellebore [Helleborus niger] or white hellebore [Veratrum album and Var.]",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "MEM",
+      "english": "Dittany",
+      "botanical": "Origanum dictamnus",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "MEM",
+      "english": "Moghat",
+      "botanical": "root of Clossostemon Bruguieri d.c.",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "NUN",
+      "english": "Indian rose chestnut",
+      "botanical": "Mesua ferrea",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "NUN",
+      "english": "Indigo",
+      "botanical": "Indigofera tinctoria",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "AYIN",
+      "english": "Jujube",
+      "botanical": "Zizyphus jujuba",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "AYIN",
+      "english": "Mastic",
+      "botanical": "the resin of Pistacia lentiscus",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "PE",
+      "english": "Root of the long pepper plant",
+      "botanical": "Piper longum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "PE",
+      "english": "White bryony",
+      "botanical": "Bryonia alba",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "QOF",
+      "english": "Southernwood",
+      "botanical": "Artemisia abrotanum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "QOF",
+      "english": "the reddish earth used for repairing broken stone and earthenware pots, and it is imported from brqʾ",
+      "botanical": "Barqā; i.e., Cyrenaica",
+      "hebrew_translit": "Kamala",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "QOF",
+      "english": "Egyptian clover",
+      "botanical": "Trifolium alexandrinum",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "QOF",
+      "english": "Tar",
+      "botanical": "or liquid pitch",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "QOF",
+      "english": "Saltwort",
+      "botanical": "Salsola kali, S. soda, Suaeda vera Forssk.",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "QOF",
+      "english": "sheets prepared from reeds",
+      "botanical": "papyrus",
+      "hebrew_translit": "Paper",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "RESH",
+      "english": "Lucerne",
+      "botanical": "Medicago sativa",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "RESH",
+      "english": "Nickernut",
+      "botanical": "Caesalpinia Bonduc",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "SHIN",
+      "english": "Alkanet",
+      "botanical": "Alkanna tinctoria",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "TAV",
+      "english": "Hedgemustard",
+      "botanical": "Sisymbrium officinale",
+      "hebrew_translit": "",
+      "romance": ""
+    },
+    {
+      "source": "sefer_almansur",
+      "section": "TAV",
+      "english": "Turpeth",
+      "botanical": "Operculina turpethum, synonym: Ipomoea turpethum",
+      "hebrew_translit": "",
+      "romance": ""
+    }
+  ],
+  "bos_hajek_oxford": [
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "SNSWQWS",
+      "romance_term": "M'YWRNH",
+      "botanical": "Origanum maiorana L.",
+      "english": "marjoram"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "'PYṬYMW",
+      "romance_term": "'SṬWRYY'",
+      "botanical": "Cuscuta epithymum L.",
+      "english": "dodder"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "'ZYMW",
+      "romance_term": "BSYLYQWN",
+      "botanical": "Ocimum basilicum L.",
+      "english": "basil"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "HQWQWRBYṬY",
+      "romance_term": "QWQWṢY",
+      "botanical": "Lagenaria vulgaris Ser.",
+      "english": "gourd/calabash"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "Q'LMYNṬY",
+      "romance_term": "MYNṬWṢ'",
+      "botanical": "Calamintha nepeta Savi",
+      "english": "catmint"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "'RYNGWLWSH",
+      "romance_term": "PLNṬ'YYNY",
+      "botanical": "Plantago major L.",
+      "english": "plantain"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "RWMYṢY",
+      "romance_term": "RWMYṢY",
+      "botanical": "Rumex acutus",
+      "english": "sorrel"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "'LṬYY'",
+      "romance_term": "MLBY",
+      "botanical": "Althaea officinalis L.",
+      "english": "marshmallow"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "'RBH LYṬR'DH",
+      "romance_term": "'SQWLWPNDRY'",
+      "botanical": "Asplenium ceterach L.",
+      "english": "spleenwort"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "ŠMŠWQWŠ",
+      "romance_term": "M'YWRNH",
+      "botanical": "Origanum maiorana L.",
+      "english": "marjoram"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "PYRYṬRW",
+      "romance_term": "",
+      "botanical": "Anacyclus pyrethrum DC.",
+      "english": "pellitory"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "'RWṬD'",
+      "romance_term": "",
+      "botanical": "Ruta graveolens L.",
+      "english": "rue"
+    },
+    {
+      "source": "bos_hajek_oxford",
+      "latin_term": "ŠQMWNY'",
+      "romance_term": "",
+      "botanical": "Convolvulus scammonia L.",
+      "english": "scammony"
+    }
+  ],
+  "arabic_romance_vatican": [
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "'PSNTYN",
+      "botanical": "Artemisia absinthium L.",
+      "english": "wormwood/absinth"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "'SPYD'G",
+      "botanical": "",
+      "english": "white lead/ceruse"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "HNṮY",
+      "botanical": "Asphodelus ramosus L.",
+      "english": "asphodel"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "'Q.ḤWĀN",
+      "botanical": "Anthemis",
+      "english": "chamomile"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "BRQWQ",
+      "botanical": "Prunus armeniaca",
+      "english": "apricot"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "'S ('ĀS)",
+      "botanical": "Myrtus communis L.",
+      "english": "myrtle"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "RYḤĀN",
+      "botanical": "Ocimum basilicum L.",
+      "english": "basil/sweet basil"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "'SṬWḤWDWS",
+      "botanical": "Lavendula stoechas L.",
+      "english": "French lavender"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "'ṮMID",
+      "botanical": "",
+      "english": "stibium/antimony"
+    },
+    {
+      "source": "arabic_romance_vatican",
+      "arabic": "MWRT'N",
+      "botanical": "Myrtus communis L.",
+      "english": "myrtle (Hispano-Arabic)"
+    }
+  ]
+}

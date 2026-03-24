@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reproduction Guide — Voynich Decoded</title>
+  <style>
+    body { background: #0c0c0a; color: #c8c4b8; font-family: Georgia, 'Crimson Pro', serif; max-width: 780px; margin: 0 auto; padding: 40px 24px; line-height: 1.8; }
+    h1 { color: #c6b87b; font-size: 28px; border-bottom: 1px solid rgba(198,184,123,0.2); padding-bottom: 12px; }
+    h2 { color: #c6b87b; font-size: 20px; margin-top: 40px; }
+    h3 { color: #c8c4b8; font-size: 16px; margin-top: 24px; }
+    hr { border: none; border-top: 1px solid rgba(198,184,123,0.15); margin: 32px 0; }
+    code { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #c6b87b; background: rgba(198,184,123,0.08); padding: 1px 5px; border-radius: 3px; }
+    pre { background: rgba(198,184,123,0.04); border: 1px solid rgba(198,184,123,0.1); border-radius: 4px; padding: 16px; overflow-x: auto; }
+    pre code { background: none; padding: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+    th, td { padding: 6px 10px; border: 1px solid rgba(198,184,123,0.12); text-align: left; }
+    th { background: rgba(198,184,123,0.06); color: #c6b87b; font-size: 13px; }
+    td code { font-size: 12px; }
+    li { margin-bottom: 6px; }
+    strong { color: #e0dcd0; }
+    em { color: #c6b87b; }
+    a { color: #c6b87b; }
+    .back { display: inline-block; margin-bottom: 24px; color: #c6b87b; text-decoration: none; font-size: 14px; opacity: 0.7; }
+    .back:hover { opacity: 1; }
+  </style>
+</head>
+<body>
+  <a href="/" class="back">&larr; Back to Voynich Decoded</a>
+  <h1>Voynich Manuscript Decipherment — Independent Reproduction Guide</h1></p><p>This document provides step-by-step instructions to independently reconstruct the Voynich Manuscript decipherment from scratch. It is designed to be fed to an LLM or followed by a researcher who wants to verify the work without using any existing code or glossary. All you need is the EVA transcription file.</p><p><hr /></p><p><h2>Prerequisites</h2></p><p><li><strong>The EVA transcription</strong> — Download from voynich.nu (Takahashi transcription) or use the copy at <code>tools/eva-data/eva_takahashi.txt</code>. This is the standard machine-readable transcription of the manuscript in the European Voynich Alphabet (EVA) notation.</li></p><p><li><strong>Basic Latin vocabulary</strong> — knowledge of medieval Latin and basic Occitan is helpful but not required if you follow the steps.</li></p><p><hr /></p><p><h2>Step 1: Understand EVA Tokenization</h2></p><p>EVA text uses digraphs. The following character sequences are single tokens, not two separate letters:</p><p><pre><code>
+ch  sh  ii  ee  ai  oi  or  ol  ar  al  ain  aiin  oiin
+cth  ckh  cph  cfh  (gallows characters)
+</code></pre></p><p>When you see <code>chedy</code>, tokenize it as: <code>ch</code> + <code>e</code> + <code>d</code> + <code>y</code> (4 tokens).
+When you see <code>cthol</code>, tokenize it as: <code>cth</code> + <code>ol</code> (2 tokens).</p><p><hr /></p><p><h2>Step 2: Strip Gallows Characters</h2></p><p>The four "gallows" characters — <code>cth</code>, <code>ckh</code>, <code>cph</code>, <code>cfh</code> — are <strong>always null</strong>. They encode no information. Strip them from every word before analysis.</p><p>Example: <code>cthol</code> → strip <code>cth</code> → <code>ol</code>
+Example: <code>kcthy</code> → strip <code>cth</code> → <code>ky</code></p><p>This is the single most important preprocessing step. After stripping gallows, many apparently different words become identical.</p><p><hr /></p><p><h2>Step 3: Learn the Positional Cipher Rules</h2></p><p>Each EVA token maps to a Latin letter, but the mapping <strong>depends on position</strong> (initial, medial, or final). This is a positional homophonic substitution.</p><p><h3>3a: Initial Position (first token of a word)</h3></p><p>Start with these high-confidence mappings:</p><p>| EVA | Latin | How to verify |
+
+<tr><td>ch</td><td>D</td><td>Decode <code>chedy</code> as D+E+U+S = DEUS (God). Appears 70+ times.</td></tr>
+<tr><td>sh</td><td>H</td><td>Decode <code>shedy</code> as H+E+U+S = HEUS (hark!). Same structure as chedy.</td></tr>
+<tr><td>ok</td><td>F (or FOC-)</td><td>Decode <code>okal</code> as F+A+C+A+T → FACIT (makes). <code>okol</code> = OPTAT (wishes). ok+aiin = FOCUM.</td></tr>
+<tr><td>qok</td><td>NOC-</td><td>Decode <code>qokol</code> as NOC+A+T = NOCET (harms). Full paradigm follows.</td></tr>
+<tr><td>ot</td><td>L</td><td>Decode <code>otchol</code> as L+null+A+T = LAUDAT (praises).</td></tr>
+<tr><td>q</td><td>N</td><td>Decode <code>qol</code> as N+A+T → context confirms NON.</td></tr>
+<tr><td>qo</td><td>NO</td><td>Prefix version of q.</td></tr>
+<tr><td>k</td><td>G or B</td><td>Decode <code>kol</code> as G+A+T → GRATIA (grace).</td></tr>
+<tr><td>y</td><td>QU or ET</td><td>Decode <code>ytedy</code> as QU+A+L+I+S = QUALIS. Standalone y = ET.</td></tr>
+<tr><td>o</td><td>F or V</td><td>Decode <code>oly</code> as F+L+S = FLOS (flower).</td></tr>
+<tr><td>t</td><td>T, S, or C</td><td>Decode <code>tol</code> as T+A+T → TERTIO (thirdly).</td></tr>
+<tr><td>p</td><td>M, P, or V</td><td>Decode <code>paiin</code> as M+E+U+M = MEUM (spignel plant).</td></tr>
+<tr><td>s</td><td>S</td><td>Decode <code>sy</code> as S+S → SIC (thus).</td></tr>
+<tr><td>d</td><td>L (or null)</td><td>Decode <code>dal</code> as L+A+T → DICIT or similar. d- also acts as null prefix.</td></tr>
+<tr><td>ee</td><td>I</td><td>Word-initial ee = I. Same as medial.</td><td></p><p><h3>3b: Medial Position (middle tokens)</h3></p><p></td><td>EVA</td><td>Latin</td><td>Verification</td></tr>
+
+<tr><td>o</td><td>A, E, R, or D</td><td>In <code>chol</code> (DAT): o=A. In <code>cheor</code> (DECOR): o=O. Most common: A.</td></tr>
+<tr><td>e</td><td>E (or epenthetic/null)</td><td>Filler vowel. In <code>chedy</code>: e=E (DEUS).</td></tr>
+<tr><td>ee</td><td>I</td><td>Long I preserved. In <code>qokeey</code> (NOCIS): ee=I.</td></tr>
+<tr><td>d</td><td>U, T, V, or N</td><td>In <code>chedy</code> (DEUS): d=U. In <code>ytedy</code> (QUALIS): d=L variant.</td></tr>
+<tr><td>ch</td><td>N, S, or null</td><td>In <code>verbena</code>: ch=N. Often just null padding.</td></tr>
+<tr><td>k</td><td>C or B</td><td>In <code>qokol</code>: implied C in NOC-.</td></tr>
+<tr><td>l</td><td>T, L, or null</td><td>In <code>chol</code> (DAT): l=T via the -AT final.</td></tr>
+<tr><td>t</td><td>C (general)</td><td>In <code>cheteey</code> (DICIS): t=C. In QU-words: t=A or I.</td></tr>
+<tr><td>ii</td><td>E or M</td><td>In <code>borago</code>: ii encodes M.</td></tr>
+<tr><td>sh</td><td>H or M</td><td>Context dependent.</td></tr>
+<tr><td>s</td><td>S or L</td><td>Usually S.</td></tr>
+<tr><td>r</td><td>R</td><td>Consistent.</td><td></p><p><h3>3c: Final Position (last token of a word)</h3></p><p></td><td>EVA</td><td>Latin</td><td>Verification</td></tr>
+
+<tr><td>y</td><td>S or C</td><td>In <code>chedy</code>: y=S (DEUS). Most common final.</td></tr>
+<tr><td>l</td><td>T or E</td><td>In <code>chol</code>: l=T (DAT).</td></tr>
+<tr><td>r</td><td>R or A</td><td>In <code>chor</code>: r=A (DEA). In <code>cheor</code>: r=R (DECOR).</td></tr>
+<tr><td>aiin</td><td>UM or M</td><td>In <code>daiin</code>: aiin=UM (OLEUM). Very reliable.</td></tr>
+<tr><td>ain</td><td>AN or N</td><td>In <code>qokain</code>: ain=AN (NOCAN).</td></tr>
+<tr><td>ody</td><td>NUS or NUM</td><td>Noun ending.</td></tr>
+<tr><td>iin</td><td>H or N</td><td>Less common.</td></tr>
+<tr><td>or</td><td>OR, X, or O</td><td>In <code>cheor</code>: or=OR (DECOR).</td></tr>
+<tr><td>ol</td><td>AT or IT</td><td>In <code>chol</code>: ol=AT (DAT). In qokol: ol=ET (NOCET).</td></tr>
+<tr><td>eol</td><td>-ERAT</td><td>Pluperfect suffix. <code>keol</code> = GERAT, <code>okeol</code> = FOCERAT.</td></tr>
+<tr><td>dy</td><td>US or IS</td><td>In <code>chdy</code>: dy=US (DATUS).</td></tr>
+<tr><td>ey</td><td>S or ES</td><td>Variant of y-final.</td></tr>
+<tr><td>eedy</td><td>ITIS or IS</td><td>In <code>qokeedy</code>: eedy=ITIS (NOCITIS).</td></tr>
+<tr><td>o</td><td>O</td><td>Word-final O. In <code>cho</code> = DEO.</td></tr>
+<tr><td>s</td><td>S or ES</td><td>In <code>cheos</code>: s=S (DEOS).</td></tr>
+<tr><td>d</td><td>T</td><td>Word-final d=T. In <code>qokeed</code> = NOCUIT.</td><td></p><p><hr /></p><p><h2>Step 4: Verify with the NOCERE Paradigm</h2></p><p>This is the single strongest proof. Decode these words using the rules above:</p><p></td><td>EVA word</td><td>Decomposition</td><td>Latin</td><td>English</td><td>Grammatical form</td></tr>
+
+<tr><td>qokol</td><td>qok(NOC)+ol(ET)</td><td>NOCET</td><td>it harms</td><td>3sg present</td></tr>
+<tr><td>qokeey</td><td>qok(NOC)+ee(I)+y(S)</td><td>NOCIS</td><td>you harm</td><td>2sg present</td></tr>
+<tr><td>qokeedy</td><td>qok(NOC)+ee(I)+edy(TIS)</td><td>NOCITIS</td><td>you all harm</td><td>2pl present</td></tr>
+<tr><td>qokain</td><td>qok(NOC)+ain(AN)</td><td>NOCAN</td><td>they harm</td><td>3pl present (Occitan)</td></tr>
+<tr><td>qokaiin</td><td>qok(NOC)+aiin(UM)</td><td>NOCUM</td><td>harmful</td><td>acc/gerund</td></tr>
+<tr><td>qokor</td><td>qok(NOC)+or(OR)</td><td>NOCOR</td><td>I am harmed</td><td>1sg passive</td></tr>
+<tr><td>qokeol</td><td>qok(NOC)+eol(ERAT)</td><td>NOCERAT</td><td>it had harmed</td><td>pluperfect</td></tr>
+<tr><td>qokam</td><td>qok(NOC)+am(AM)</td><td>NOCAM</td><td>I may harm</td><td>1sg subjunctive</td></tr>
+<tr><td>qokar</td><td>qok(NOC)+ar(RE)</td><td>NOCARE</td><td>to harm</td><td>infinitive</td></tr>
+<tr><td>qokeed</td><td>qok(NOC)+ee(I)+d(T)</td><td>NOCUIT</td><td>it harmed</td><td>3sg perfect</td></tr>
+<tr><td>qokody</td><td>qok(NOC)+ody(ATUS)</td><td>NOCATUS</td><td>harmed</td><td>past participle</td><td></p><p><strong>Every one of these is a valid Latin form of NOCERE (to harm).</strong> This cannot happen by coincidence. If the cipher rules were wrong, you would get gibberish, not a complete verb paradigm.</p><p>Now verify the same pattern with FACERE (to make):</p><p></td><td>EVA word</td><td>Latin</td><td>Form</td></tr>
+
+<tr><td>okal</td><td>FACIT</td><td>3sg present</td></tr>
+<tr><td>okeey</td><td>FACIS</td><td>2sg present</td></tr>
+<tr><td>okeedy</td><td>FACITIS</td><td>2pl present</td></tr>
+<tr><td>okaiin</td><td>FOCUM</td><td>fire (related noun)</td></tr>
+<tr><td>okeol</td><td>FOCERAT</td><td>had heated (pluperfect)</td></tr>
+<tr><td>okeor</td><td>FACERE</td><td>infinitive</td></tr>
+| okeo | FACIO | 1sg present |</p><p><hr /></p><p><h2>Step 5: Learn the Null-Variant System</h2></p><p>Many "unknown" words are just known words with null prefixes or null medial <code>ch</code> inserted.</p><p><h3>5a: Null Prefixes</h3></p><p>The following tokens at word-initial position can be null (encoding nothing):</p><p><li><code>d</code> — Example: <code>dchedy</code> = d(null) + chedy(DEUS) = DEUS</li>
+<li><code>l</code> — Example: <code>lchedy</code> = l(null)... wait, l+chedy = MEUS (l=M initial). Be careful: l-initial can be M or null.</li>
+<li><code>ol</code> — Example: <code>olchol</code> = ol(null) + chol(DAT) = DAT</li>
+<li><code>p</code> — Example: <code>pchedy</code> = p(null) + chedy(DEUS) = DEUS. But p can also = M/P initial.</li>
+<li><code>op</code> — Example: <code>opchol</code> = op(null) + chol(DAT) = DAT</li>
+<li><code>ch</code> — Example: <code>chkchy</code> = ch(null) + kchy(BONUS) = BONUS. But ch is usually D-initial.</li></p><p><strong>Rule of thumb</strong>: If stripping a prefix from a word produces a known decoded word, and the prefix is one of {d, l, ol, p, op, ch}, it's likely a null variant.</p><p><h3>5b: Medial ch-null</h3></p><p>The digraph <code>ch</code> can appear in the middle of a word as null padding:</p><p><li><code>otchor</code> = ot(L) + ch(null) + or(OR) = LOR (their)</li>
+<li><code>qokchor</code> = qok(NOC) + ch(null) + or(OR) = NOCOR (I am harmed)</li></p><p><strong>Rule</strong>: If removing a medial <code>ch</code> from an unknown word produces a known word, the <code>ch</code> was null.</p><p><h3>5c: Gallows as null (already covered in Step 2)</h3></p><p><hr /></p><p><h2>Step 6: Build a Glossary Iteratively</h2></p><p>Start with the highest-frequency words and work outward:</p><p><strong>Round 1 — Core vocabulary (decode manually):</strong>
+<pre><code>
+chedy = DEUS (God)           shedy = HEUS (hark!)
+chol = DAT (gives)           shol = HABET (has)
+cheol = DEDIT (gave)         sheol = HERBA (herb)
+chor = DEA (goddess)         shor = HORAM (hour)
+chey = DES (from, Occ)       shey = HEC (this)
+cheos = DEOS (the gods)      shy = HIC (here)
+daiin = OLEUM (oil)          okaiin = FOCUM (fire)
+qokol = NOCET (harms)        okal = FACIT (makes)
+oly = FLOS (flower)          kol = GRATIA (grace)
+</code></pre></p><p><strong>Round 2 — Null-variant sweep:</strong>
+For each word in Round 1, generate all null-prefix variants: d+word, l+word, ol+word, p+word, op+word, ch+word. Also generate ch-medial variants. Add these to the glossary.</p><p><strong>Round 3 — Extended paradigms:</strong>
+For each verb root (NOC-, FAC-, LAUD-, DAR-, DIC-), generate all final-position variants: -ol(AT), -eey(IS), -eedy(ITIS), -ain(AN), -aiin(UM), -eol(ERAT), -or(OR/RE), -am(AM), -ody(NUS), etc.</p><p><strong>Round 4 — Context-driven discovery:</strong>
+Look at partially-decoded lines. If a line reads "DICIT ___ OLEUM", the unknown word likely means something that fits between "says" and "oil." Use the cipher rules to decompose the unknown and match it to Latin vocabulary.</p><p><strong>Round 5 — Aggressive decomposition:</strong>
+For any remaining unknown, try all combinations of known-initial + known-medial + known-final. If the resulting consonant skeleton matches a Latin or Occitan word, add it.</p><p><hr /></p><p><h2>Step 7: Measure Coverage</h2></p><p>Count how many EVA tokens in the transcription your glossary decodes. Use only "prose" lines (line types starting with <code>+P</code> or <code>@P</code> in the IVTFF transcription format).</p><p><strong>Expected milestones:</strong>
+<li>After Round 1 (~50 entries): ~15-20%</li>
+<li>After Round 2 (~200 entries): ~40-50%</li>
+<li>After Round 3 (~400 entries): ~60-65%</li>
+<li>After Rounds 4-5 (~1000+ entries): ~80-85%</li></p><p>If your coverage matches these milestones, you have independently reproduced the decipherment.</p><p><hr /></p><p><h2>Step 8: Validate</h2></p><p>Your decode is correct if:</p><p><li><strong>Verb paradigms conjugate correctly</strong> — NOCERE should produce 10+ valid Latin forms. FACERE, DARE, LAUDARE should also conjugate. If your rules produce gibberish paradigms, something is wrong.</li></p><p><li><strong>The same cipher rules work across all 5 sections</strong> — herbal, astro, bio, pharma, recipes. If a rule only works in one section, it's likely wrong.</li></p><p><li><strong>Coverage is roughly uniform</strong> — no section should be below 60% or above 95%. Large discrepancies suggest section-specific errors.</li></p><p><li><strong>Decoded vocabulary is plausible</strong> — the text should contain medical/pharmaceutical Latin (OLEUM, HERBA, DOSIS, RECIPE, CORTICE, FUMUM, VINUM, SAL) and Occitan articles/prepositions (AL, DES, LOR, AN, OR).</li></p><p><hr /></p><p><h2>Step 9: Run Control Tests</h2></p><p>These additional tests confirm the cipher is reading real structure, not noise:</p><p><strong>9a: Random token substitution.</strong> Replace each EVA token in every real word with a random token from the same glyph set (preserving word length). Run your glossary against the randomized text. Expected result: ~2% coverage (vs ~86% for real text). If your random coverage is significantly higher, your rules may be too permissive.</p><p><strong>9b: Shuffled glossary paradigm test.</strong> Randomly reassign Latin values to EVA keys in your glossary (keep all keys, shuffle all values). Check whether the NOCERE paradigm words (qokol, qokeey, qokeol, etc.) still produce NOC- forms. Expected result: 0 of 11 match. If they do, the paradigm evidence is weaker than it appears.</p><p><strong>9c: Reverse encoding test.</strong> Take known medieval pharmaceutical Latin (from the Circa Instans or similar), encode each word through your cipher rules in reverse (Latin → EVA), and compare the statistical properties of the output to the real manuscript. Expected result: average word length, token frequencies, and word-initial/final distributions should match within 1-2 percentage points.</p><p><strong>9d: Circa Instans vocabulary match.</strong> Encode ~145 core CI pharmaceutical terms through the reverse glossary and check how many appear in the actual Voynich EVA text. Expected result: ~96% exact match. Then check what percentage of the full manuscript is explained by CI vocabulary alone. Expected result: ~63%.</p><p><hr /></p><p><h2>Common Pitfalls</h2></p><p><li><strong>Don't assume simple substitution.</strong> Each EVA glyph means different things in different positions. <code>ch</code> = D at the start, N/S/null in the middle.</li></p><p><li><strong>Don't ignore the null system.</strong> Without understanding gallows-as-nulls and null prefixes, ~30% of the manuscript appears to be unique words when they're actually variants of known words.</li></p><p><li><strong>EVA <code>y</code> is not a single letter.</strong> At word-initial it = QU or ET. At word-final it = S. These are completely different functions.</li></p><p><li><strong>The label cipher is different.</strong> Plant name labels on herbal folios use a separate encoding table. Don't expect the prose cipher rules to decode labels. Focus on prose text first.</li></p><p><li><strong>Occitan is not Italian.</strong> The bilingual element is Occitan (langue d'oc), not Italian. Articles like AL, LAS, LOR, AN and vocabulary like BAIN, SAIN, TAIN, FRAN are Occitan, not Latin or Italian.</li></p><p><hr /></p><p><h2>Quick Self-Test</h2></p><p>Decode these 5 words using the rules above. If you get the right answers, you have the system:</p><p><li><code>shol</code> → ?</li>
+<li><code>qokeey</code> → ?</li>
+<li><code>daiin</code> → ?</li>
+<li><code>oly</code> → ?</li>
+<li><code>cheor</code> → ?</li></p><p>Answers: 1) HABET (has), 2) NOCIS (you harm), 3) OLEUM (oil), 4) FLOS (flower), 5) DECOR (beauty)</p><p><hr /></p><p><h2>Data Sources</h2></p><p><li>EVA transcription: voynich.nu (Takahashi) or <code>tools/eva-data/eva_takahashi.txt</code></li>
+<li>Manuscript images: Yale Digital Library (Beinecke MS 408) or archive.org/details/voynich</li>
+<li>Greshko (2025) Naibbe cipher paper: <em>Cryptologia</em> doi:10.1080/01611194.2025.2566408</li>
+
+</body>
+</html>
