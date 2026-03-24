@@ -8,7 +8,7 @@ The decoded text describes a complete oil-based pharmaceutical production system
 
 The decoded vocabulary aligns with the oil-pharmacy tradition of Dioscorides, Pseudo-Mesue, Antidotarium Nicolai, Sabur ibn Sahl, and the Persian Qarabadin — sharing core terminology for oil preparations, salt preservation, wool processing, bitterness assessment, and heated maceration. Systematic absence testing across 117 terms reveals what the manuscript does not contain: Christian vocabulary, medical authorities, institutional titles, or dosage units. Each of the five comparanda contains Christian or Islamic religious framing. The Voynich does not. The cipher's complexity — a null-padding system that generates 38,000 surface tokens from roughly 150 base words — suggests the author may have been protecting more than commercial formulations.
 
-The divine vocabulary (DEA/goddess, DEUS/God, HEUS/beware, LAR/household god) distributes according to Kabbalistic sefirotic structure, passing 6 of 8 quantitative coherence tests. Hebrew zodiac names, ritual purity vocabulary, and cosmological terminology in the undecoded residue reflect the author's Jewish cultural identity. The professional language throughout is Latin and Occitan. Vocabulary overlap with Shem Tov ben Isaac's medical synonym lists from 13th-century Marseille places the author in the documented Montpellier bilingual medical tradition. Ten converging Occitan phonological features date the composition to circa 1250–1350 in Languedoc. When Jews were expelled from France in 1306, these communities scattered to northern Italy. The surviving copy, written on Italian vellum radiocarbon-dated to 1404–1438, may have been commissioned as a preservation artifact by the diaspora community.
+The divine vocabulary (DEA/goddess, DEUS/God, HEUS/beware, LAR/household god) distributes according to Kabbalistic sefirotic structure, passing 6 of 8 quantitative coherence tests. Hebrew zodiac names, ritual purity vocabulary, and cosmological terminology in the undecoded residue reflect the author's Jewish cultural identity. The professional language throughout is Latin and Occitan. Vocabulary overlap with Shem Tov ben Isaac's medical synonym lists from 13th-century Marseille places the author in the documented Montpellier bilingual medical tradition. Ten converging Occitan phonological features date the composition to circa 1250–1350 in Languedoc. When Jews were expelled from France in 1306, these communities scattered to northern Italy. The surviving copy, written on Italian vellum radiocarbon-dated to 1404–1438, may have been commissioned as a preservation artifact by the diaspora community. The total grammatical composition matches Latin pharmaceutical prose, and 223 of 224 folios are grammatically self-contained. However, the decoded text reads as fragmented phrases in transcription order, and a random reshuffling by grammatical category produces more coherent statements than the page order. This suggests a page-level reading order that has not yet been recovered.
 
 ---
 
@@ -255,11 +255,12 @@ The remaining 12.2% undecoded tokens consist primarily of single-glyph transcrip
 
 Outstanding research questions:
 
-1. Can the zodiac wheel labels be decoded as a complete Hebrew astronomical vocabulary?
-2. Does the DiTMAO corpus (3,200 Occitan medical terms in Hebrew characters, University of Göttingen) produce additional vocabulary matches?
-3. Can a specific author be identified within the documented Montpellier/Marseille Jewish medical community?
-4. Does the Rosettes foldout correspond to a known ilan (sefirotic tree diagram) type?
-5. Do the botanically unidentifiable plant illustrations carry deliberate sefirotic symbolism?
+1. **Page-level word order.** The cipher produces correct Latin vocabulary at the word level, and the total grammatical composition matches Latin pharmaceutical prose (verb:noun ratio 1.24:1, function:content ratio 0.39:1, Zipf exponent -0.919). Each folio is grammatically self-contained (223 of 224 pages have balanced verb, noun, and function word counts), and words from individual folios can be assembled into dozens of coherent pharmaceutical sentences using grammatical templates. However, the decoded text in its current transcription order reads as fragmented phrases. Simple reordering algorithms (columnar transposition, boustrophedon, line interleaving) do not improve coherence. The reading order may follow illustration-specific paths (spiraling around zodiac wheels, following pipes on biological pages), or the EVA transcription's physical line order may not match the scribe's intended reading order. Super-gallows are not sentence delimiters (mean gap: 1.9 words). See [18-null-analysis.md](18-null-analysis.md) for full analysis.
+2. Can the zodiac wheel labels be decoded as a complete Hebrew astronomical vocabulary?
+3. Does the DiTMAO corpus (3,200 Occitan medical terms in Hebrew characters, University of Göttingen) produce additional vocabulary matches?
+4. Can a specific author be identified within the documented Montpellier/Marseille Jewish medical community?
+5. Does the Rosettes foldout correspond to a known ilan (sefirotic tree diagram) type?
+6. Do the botanically unidentifiable plant illustrations carry deliberate sefirotic symbolism?
 
 ---
 
