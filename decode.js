@@ -20,7 +20,7 @@
  *      decorative elements that do not carry meaning. They are stripped
  *      before lookup when the raw word is not found in the glossary.
  *
- *   4. A glossary of ~3,600 EVA→Latin mappings is used for decoding.
+ *   4. A glossary of ~3,700 EVA→Latin/Occitan/Hebrew mappings is used for decoding.
  *      Each EVA word is looked up directly, then with gallows stripped.
  *
  * Usage:
