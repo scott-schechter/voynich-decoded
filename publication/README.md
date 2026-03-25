@@ -20,6 +20,10 @@ Evidence and documentation for the decipherment of the Voynich Manuscript (Beine
 15. **[16-oil-pharmacy-comparison.md](16-oil-pharmacy-comparison.md)** — The Voynich in the oil-pharmacy tradition: vocabulary matrix comparison against Dioscorides, Pseudo-Mesue, Antidotarium Nicolai, Sabur ibn Sahl, and the Persian Qarabadin.
 16. **[17-hebrew-hypothesis.md](17-hebrew-hypothesis.md)** — Evidence for a Jewish author: Hebrew zodiac names, month names, and Kabbalistic terminology in the undecoded astronomical vocabulary; cipher design parallels with consonantal writing; the Montpellier Jewish medical tradition; Shem Tov 739-entry synonym list cross-referencing; 8 high-confidence Hebrew transliterations identified (SHALOM, ADAR, GEDI, ILAN, TELI, TAHOR/TAMEI); zodiac label lines as Hebrew vocabulary reservoir (58.8% decode rate); n/m paleographic correction recovering ~40 tokens.
 
+17. **[18-null-analysis.md](18-null-analysis.md)** — Super-gallows vowel positions, gallows type differentiation, prefix grammar, per-folio grammatical composition.
+18. **[19-page-order-analysis.md](19-page-order-analysis.md)** — Page-level reading order: section dividers, V-N line separation, section-aware grammatical assembly (80–100% coherence), warning chant structure, CKH gallows correlation.
+19. **[20-folio-level-validation.md](20-folio-level-validation.md)** — Plant-property cross-validation (84% accuracy, 14 plants), spatial word patterns (left=warnings, right=prescriptions), section structure by manuscript division, Antidotarium Nicolai/Dioscorides recipe comparison.
+
 ## Key Findings
 
 - **87.8%** of 37,886 tokens decoded (2.1% false positive rate)

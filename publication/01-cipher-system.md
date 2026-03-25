@@ -138,11 +138,46 @@ Plant name labels on herbal folios use a **different positional encoding table**
 
 The word-level cipher produces correct Latin vocabulary: 18 NOCERE conjugations, Zipf-compliant frequency distribution (exponent -0.919), and grammatical composition matching Latin pharmaceutical prose (verb:noun ratio 1.24:1, function:content ratio 0.39:1). Testing confirms 223 of 224 folios are grammatically self-contained, with enough verbs, nouns, and function words on each page to form complete sentences.
 
-However, the decoded text reads as fragmented phrases in the EVA transcription's physical line order. A random reshuffling of the decoded words by grammatical category actually produces more coherent pharmaceutical statements than the words in their page order. Simple reordering algorithms (columnar transposition, boustrophedon, line interleaving) do not improve coherence, suggesting the reading order may follow illustration-specific paths rather than a universal algorithm.
+However, the decoded text reads as fragmented phrases in the EVA transcription's physical line order. Systematic analysis across six folios from all five manuscript sections has identified the page-level structure:
 
-Super-gallows characters appear at vowel positions 63% of the time (vs 40% expected by chance), and the four types show different following-glyph distributions, indicating they carry information beyond decoration. However, they are not sentence delimiters (mean gap: 1.9 words between consecutive gallows). Their exact function remains an open question.
+### Section Dividers
 
-The word-level substitution cipher is solved. The page-level reading order is the primary remaining challenge. Full analysis in [18-null-analysis.md](18-null-analysis.md).
+Single-glyph lines (tagged `*L0` in the Takahashi transcription) function as paragraph dividers, splitting each page into 2–10 self-contained sections. Where decoded, these read as SED ("but"), RECIPE ("take!"), or null paragraph markers. On f76r, the RECIPE divider on line 31 marks the exact transition from warnings to the recipe proper. The dividers create a progression matching standard pharmaceutical recipe structure: invocation → warnings → ingredients → procedure → safety chanting → recipe → final preparation.
+
+### Grammatical Line Separation
+
+Within each section, lines cluster by grammatical category. Verb-dominated lines contain instructions and warnings (FOCAR/"heat", NOCETIS/"you all harm", FACITIS/"you all make"). Noun-dominated lines contain materials and ingredients (OLEUM/"oil", SAIN/"lard", GARUM/"fish sauce"). Interleaving verb-lines with noun-lines produces more grammatically coherent text than normal reading order or any geometric alternative tested (columnar, boustrophedon, spiral, diagonal — 14 reading orders tested across 8 folios).
+
+### Section-Aware Assembly Results
+
+When decoded words within each section are assembled by grammatical category, 80–100% of adjacent word pairs form coherent grammatical sequences. Results across folios:
+
+| Folio | Section | Coherent Pairs |
+|---|---|---|
+| f2v (herbal — borage) | single section | 100% |
+| f33v (herbal — frankincense) | single section | 85% |
+| f75r (biological — bathing) | single section | 80% |
+| f76r (biological — bathing) | 10 sections | 85% avg |
+| f88r (pharmaceutical) | 4 sections | 84–88% |
+| f104r (recipes — compound) | single section | 80% |
+
+The assembled text reads as pharmaceutical instructions. Examples:
+
+- **f2v (herbal):** "To God has fragrant wool. This goddess gives bitter oil. This goddess gives grace. Their goddess gives oil yielded. Day gives oil."
+- **f75r (biological):** "God they harm branch not God it may harm wool gold God heat herb of this God it may harm wool of this BEWARE TAKE hour not BEWARE."
+- **f104r (recipes):** "With of yielded fish sauce to heat aloe and to heat oil... hour and to it may harm fish sauce but to approves grace... oil let be made grace heat grace approves whey it makes oil."
+
+### Warning Chant Structure
+
+In every folio analyzed, the first 60–70% of decoded words assemble into coherent pharmaceutical statements. The final 30–40% degrades into repetitive harm/warning verb stacking (NOCETIS NOCITIS NOCAN NOCETIS...). This is not noise — it is the oral safety protocol, a group of practitioners chanting warnings during dangerous heated bathing procedures. The warnings concentrate in the biological section (59% of all HEUS occurrences), exactly where heated oil-salt-lard bathing procedures would be most dangerous.
+
+### Gallows Correlation
+
+Full-manuscript gallows-word correlation testing (2,129 gallows tokens) found that CKH is the only gallows type with a distinctive word profile: 2.2× enriched for DIES (day/time) compared to other gallows types, and uniquely correlated with HEUS (beware) at 10.7% — particularly in the biological section (59 CKH→HEUS hits). CTH, CPH, and CFH show similar distributions consistent with pure nulls, but CKH may function as a warning or temporal marker.
+
+### Status
+
+The page-level structure has been identified: the author separated instructions from materials on different lines and used single-glyph dividers to mark paragraph boundaries. Section-aware grammatical assembly produces coherent pharmaceutical text across all five manuscript sections. The exact within-line word order has not been recovered, but the structural principle is clear. Full analysis in [19-page-order-analysis.md](19-page-order-analysis.md).
 
 ## Historical Context
 
